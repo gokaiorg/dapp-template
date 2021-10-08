@@ -1,7 +1,5 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
 import { dAppName } from "config";
-import { routeNames } from "routes";
 
 const Home = () => {
   return (
@@ -13,19 +11,10 @@ const Home = () => {
               <h2 className="mb-3" data-testid="title">
                 {dAppName}
               </h2>
-
               <p className="mb-3">
-                This is an Elrond dapp sample.
+                Where the community meets.
                 <br /> Login using your Elrond wallet.
               </p>
-
-              <Link
-                to={routeNames.unlock}
-                className="btn btn-primary mt-3"
-                data-testid="loginBtn"
-              >
-                Login
-              </Link>
             </div>
           </div>
         </div>

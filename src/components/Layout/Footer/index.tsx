@@ -3,7 +3,7 @@ import { ReactComponent as HeartIcon } from "../../../assets/img/heart.svg";
 
 const Footer = () => {
   return (
-    <footer className="text-center mt-2 mb-3">
+    <footer className="text-right mt-2 mb-3 container-fluid">
       <div>
         <a
           {...{
