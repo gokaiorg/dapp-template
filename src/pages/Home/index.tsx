@@ -17,7 +17,7 @@ const Home = () => {
             </p>
             <Link
               to={routeNames.unlock}
-              className="btn btn-link btn-lg ml-auto bg-white"
+              className="btn btn-link btn-lg ml-auto"
               data-testid="loginBtn"
             >
               Login

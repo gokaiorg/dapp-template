@@ -3,6 +3,7 @@ import * as Dapp from "@elrondnetwork/dapp";
 import { dAppName } from "config";
 import withPageTitle from "./components/PageTitle";
 import Dashboard from "./pages/Dashboard";
+import Marketplace from "./pages/Marketplace";
 import Home from "./pages/Home";
 import Transaction from "./pages/Transaction";
 
@@ -11,6 +12,7 @@ type RouteType = Dapp.RouteType & { title: string };
 export const routeNames = {
   home: "/",
   dashboard: "/dashboard",
+  marketplace: "/marketplace",
   transaction: "/transaction",
   unlock: "/unlock",
   ledger: "/ledger",
@@ -33,6 +35,11 @@ const routes: RouteType[] = [
     path: "/transaction",
     title: "Transaction",
     component: Transaction,
+  },
+  {
+    path: "/marketplace",
+    title: "Marketplace",
+    component: Marketplace,
   },
 ];
 

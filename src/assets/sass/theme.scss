@@ -1,8 +1,8 @@
 /* Bootstrap overrides
 -------------------------------------------------- */
-$body: #000;
+$body: #16181f;
 $headings-font-weight: 300 !important;
-$primary: #1b46c2;
+$primary: #16181f;
 $light: #fafafa;
 
 /* Do not move the imports from here.
@@ -53,8 +53,17 @@ html {
 }
 
 .btn {
-  border-radius: 40px;
+  border-radius: 2rem !important;
   text-decoration: none !important;
+  background: #fff !important;
+  color: #16181f !important;
+  border: 1px solid $white !important;
+  font-size: 1.25rem !important;
+
+  &:hover {
+    background: transparent !important;
+    color: $white !important;
+  }
 }
 
 .text-6xl {
@@ -64,6 +73,28 @@ html {
 
 .text-xl {
   font-size: 1.25rem;
+}
+
+.border-top-main {
+  border-top: 1px solid #9ba5b4;
+}
+
+.border-block {
+  border: 1px solid $white;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+table {
+  * {
+    color: $white !important;
+  }
+
+  th {
+    color: $primary !important;
+  }
+
 }
 
 /* Navbar
@@ -77,6 +108,64 @@ html {
   line-height: 1;
   border-left: 1px solid $gray-400;
   padding-left: 0.8rem;
+}
+
+/* Unlock page
+-------------------------------------------------- */
+div[data-testid="unlockPage"] {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @include media-breakpoint-up(sm) {
+    max-width: 540px;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: 720px;
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: 960px;
+  }
+  @include media-breakpoint-up(xl) {
+    max-width: 1140px;
+  }
+
+  .card {
+    margin: 0 !important;
+    text-align: left !important;
+    background-color: transparent;
+
+    &-body {
+      padding: 0 !important;
+      margin: 0 !important;
+
+      h4 {
+        display: none;
+      }
+
+      p {
+        color: $white;
+        font-size: 1.25rem !important;
+      }
+
+      div {
+        display: inline-flex;
+        flex-direction: column;
+
+        .btn {
+          margin: 0 0 1rem 0 !important;
+        }
+      }
+    }
+  }
+
+}
+
+/* Login container
+-------------------------------------------------- */
+.login-container button[data-testid="connectBtn"] {
+  border-color: #16181f !important;
+  color: #16181f !important;
 }
 
 /* Dashboard

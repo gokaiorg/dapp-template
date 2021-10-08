@@ -10,7 +10,11 @@ const TopInfo = () => {
   } = Dapp.useContext();
 
   return (
-    <div className="text-white" data-testid="topInfo">
+    <div
+      className="d-inline-flex flex-column text-white border-block text-xl"
+      data-testid="topInfo"
+    >
+      <h2 className="font-weight-bold">Profile</h2>
       <div className="mb-1">
         <span className="opacity-6 mr-1">Your address:</span>
         <span data-testid="accountAddress"> {address}</span>

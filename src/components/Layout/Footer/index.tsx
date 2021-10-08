@@ -41,7 +41,7 @@ const Footer = () => {
           </svg>
           Discord
         </a>
-        <p className="ml-auto d-flex align-items-center text-white">
+        <p className="ml-auto d-flex align-items-center text-white mb-0">
           Made with
           <svg
             xmlns="http://www.w3.org/2000/svg"
