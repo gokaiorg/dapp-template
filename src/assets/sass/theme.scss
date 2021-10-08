@@ -5,7 +5,7 @@ $headings-font-weight: 300 !important;
 $primary: #1b46c2;
 $light: #fafafa;
 
-/* Do not move the imports from here. 
+/* Do not move the imports from here.
 Override Bootstrap variables only above.
 -------------------------------------------------- */
 
@@ -47,18 +47,36 @@ html {
   }
 }
 
+.bg-gradient-main {
+  background: rgb(22,24,31);
+  background: linear-gradient(140deg, rgba(22,24,31,1) 0%, rgba(49,60,101,1) 100%);
+}
+
+.btn {
+  border-radius: 40px;
+  text-decoration: none !important;
+}
+
+.text-6xl {
+  font-size: 4rem;
+  font-weight: bold !important;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
 /* Navbar
 -------------------------------------------------- */
-.elrond-logo {
-  width: 85px;
-  height: 25px;
+.dapp-logo {
+  color: $white;
+  margin-right: 0.8rem;
 }
 
 .dapp-name {
   line-height: 1;
   border-left: 1px solid $gray-400;
-  padding-left: 3px;
-  margin-left: 4px;
+  padding-left: 0.8rem;
 }
 
 /* Dashboard
@@ -115,7 +133,7 @@ html {
       white-space: nowrap;
       vertical-align: middle;
     }
- 
+
     tr:last-of-type {
       td {
         border-bottom: 1px solid #dee2e6;
@@ -199,7 +217,6 @@ html {
 footer {
   div {
     margin-top: 0.5rem;
-    font-size: 0.75rem;
     display: inline-block;
     font-weight: 400;
     line-height: 1.155rem;
@@ -209,6 +226,7 @@ footer {
 
       &:hover {
         color: $black;
+        text-decoration: none;
       }
 
       #heart {
@@ -220,5 +238,8 @@ footer {
         }
       }
     }
+  }
+  .social-icon {
+    width: 24px;
   }
 }
