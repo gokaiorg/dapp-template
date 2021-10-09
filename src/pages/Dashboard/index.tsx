@@ -5,9 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PageState from "components/PageState";
 import { contractAddress } from "config";
 import { useContext, useDispatch } from "context";
+import Academy from "./Academy";
 import { getTransactions } from "./helpers/asyncRequests";
-import TopInfo from "./TopInfo";
 import Marketplace from "./Marketplace";
+import TopInfo from "./TopInfo";
 
 const Dashboard = () => {
   const ref = React.useRef(null);
@@ -55,7 +56,16 @@ const Dashboard = () => {
         <div className="col-12 col-md-10 mx-auto">
           <h1 className="text-white font-weight-bold my-5">Dashboard</h1>
           <TopInfo />
-          <Marketplace />
+          <div className="d-flex flex-column flex-md-row">
+            <div className="row">
+              <div className="col-6">
+                <Marketplace />
+              </div>
+              <div className="col-6">
+                <Academy />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

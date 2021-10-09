@@ -4,6 +4,7 @@ import { dAppName } from "config";
 import withPageTitle from "./components/PageTitle";
 import Dashboard from "./pages/Dashboard";
 import Marketplace from "./pages/Marketplace";
+import Academy from "./pages/Academy";
 import Home from "./pages/Home";
 import Transaction from "./pages/Transaction";
 
@@ -13,6 +14,7 @@ export const routeNames = {
   home: "/",
   dashboard: "/dashboard",
   marketplace: "/marketplace",
+  academy: "/academy",
   transaction: "/transaction",
   unlock: "/unlock",
   ledger: "/ledger",
@@ -40,6 +42,11 @@ const routes: RouteType[] = [
     path: "/marketplace",
     title: "Marketplace",
     component: Marketplace,
+  },
+  {
+    path: "/academy",
+    title: "Academy",
+    component: Academy,
   },
 ];
 

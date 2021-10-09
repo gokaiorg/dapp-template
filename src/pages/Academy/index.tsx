@@ -2,11 +2,11 @@ import * as React from "react";
 import { routeNames } from "../../routes";
 import { Link } from "react-router-dom";
 
-const Marketplace = () => {
+const Academy = () => {
   const ref = React.useRef(null);
 
   return (
-    <div className="marketplace border-top-main" ref={ref}>
+    <div className="academy border-top-main" ref={ref}>
       <div className="container py-5">
         <div className="col-12 col-md-10 mx-auto">
           <Link to={routeNames.dashboard} className="text-white">
@@ -22,7 +22,7 @@ const Marketplace = () => {
             </svg>
             Back to dashboard
           </Link>
-          <h1 className="text-white font-weight-bold my-5">Marketplace</h1>
+          <h1 className="text-white font-weight-bold my-5">Academy</h1>
           <p className="text-xl text-white my-5">Coming soon!</p>
         </div>
       </div>
@@ -30,4 +30,4 @@ const Marketplace = () => {
   );
 };
 
-export default Marketplace;
+export default Academy;
