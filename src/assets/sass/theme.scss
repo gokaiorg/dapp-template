@@ -55,14 +55,14 @@ html {
 .btn {
   border-radius: 2rem !important;
   text-decoration: none !important;
-  background: #fff !important;
-  color: #16181f !important;
+  background: transparent !important;
+  color: $white !important;
   border: 1px solid $white !important;
   font-size: 1.25rem !important;
 
   &:hover {
-    background: transparent !important;
-    color: $white !important;
+    background: #fff !important;
+    color: #16181f !important;
   }
 }
 
@@ -132,8 +132,15 @@ div[data-testid="unlockPage"] {
 
   .card {
     margin: 0 !important;
-    text-align: left !important;
     background-color: transparent;
+
+    &::before {
+      content: "Login";
+      color: $white;
+      font-weight: 700 !important;
+      margin-bottom: 3rem!important;
+      font-size: 2em;
+    }
 
     &-body {
       padding: 0 !important;
