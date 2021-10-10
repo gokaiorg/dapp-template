@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Marketplace = () => {
   return (
-    <div className="d-inline-flex flex-row text-white border-block text-xl">
+    <div className="d-flex d-md-inline-flex flex-row text-white border-block text-xl">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="126"

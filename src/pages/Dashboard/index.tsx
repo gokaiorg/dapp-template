@@ -53,15 +53,15 @@ const Dashboard = () => {
   return (
     <div className="dashboard border-top-main" ref={ref}>
       <div className="container py-4">
-        <div className="col-12 col-md-10 mx-auto">
+        <div className="col-12 col-md-10 px-0 mx-md-auto">
           <h1 className="text-white font-weight-bold my-5">Dashboard</h1>
           <TopInfo />
           <div className="d-flex flex-column flex-md-row">
             <div className="row">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <Marketplace />
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <Academy />
               </div>
             </div>

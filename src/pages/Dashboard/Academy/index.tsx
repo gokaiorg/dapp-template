@@ -4,11 +4,11 @@ import { routeNames } from "../../../routes";
 
 const Academy = () => {
   return (
-    <div className="d-inline-flex flex-row text-white border-block text-xl">
+    <div className="d-flex d-md-inline-flex flex-row text-white border-block text-xl">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="126"
-        height="126px"
+        height="126"
         viewBox="0 0 30 30"
         className="mr-4"
         fill="currentColor"

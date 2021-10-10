@@ -48,8 +48,8 @@ html {
 }
 
 .bg-gradient-main {
-  background: rgb(22,24,31);
-  background: linear-gradient(140deg, rgba(22,24,31,1) 0%, rgba(49,60,101,1) 100%);
+  background: rgb(22, 24, 31);
+  background: linear-gradient(140deg, rgba(22, 24, 31, 1) 0%, rgba(49, 60, 101, 1) 100%);
 }
 
 .btn {
@@ -133,13 +133,14 @@ div[data-testid="unlockPage"] {
 
   .card {
     margin: 0 !important;
+    border: 0 !important;
     background-color: transparent;
 
     &::before {
       content: "Login";
       color: $white;
       font-weight: 700 !important;
-      margin-bottom: 3rem!important;
+      margin-bottom: 3rem !important;
       font-size: 2em;
     }
 
@@ -171,9 +172,16 @@ div[data-testid="unlockPage"] {
 
 /* Login container
 -------------------------------------------------- */
-.login-container button[data-testid="connectBtn"] {
-  border-color: #16181f !important;
-  color: #16181f !important;
+.login-container {
+
+  .card {
+    margin: 0 1rem;
+
+    button {
+      border-color: #16181f !important;
+      color: #16181f !important;
+    }
+  }
 }
 
 /* Dashboard
@@ -255,6 +263,7 @@ div[data-testid="unlockPage"] {
     width: 64px;
     height: 64px;
   }
+
   .lds-ellipsis div {
     position: absolute;
     top: 27px;
@@ -264,25 +273,31 @@ div[data-testid="unlockPage"] {
     background: rgba(0, 0, 0, 0.1);
     animation-timing-function: cubic-bezier(0, 1, 1, 0);
   }
+
   .bg-blue .lds-ellipsis div {
     background: rgba(255, 255, 255, 0.4);
   }
+
   .lds-ellipsis div:nth-child(1) {
     left: 6px;
     animation: lds-ellipsis1 0.6s infinite;
   }
+
   .lds-ellipsis div:nth-child(2) {
     left: 6px;
     animation: lds-ellipsis2 0.6s infinite;
   }
+
   .lds-ellipsis div:nth-child(3) {
     left: 26px;
     animation: lds-ellipsis2 0.6s infinite;
   }
+
   .lds-ellipsis div:nth-child(4) {
     left: 45px;
     animation: lds-ellipsis3 0.6s infinite;
   }
+
   @keyframes lds-ellipsis1 {
     0% {
       transform: scale(0);
@@ -336,7 +351,15 @@ footer {
       }
     }
   }
+
   .social-icon {
     width: 24px;
+  }
+
+  .button-icon {
+
+    &:hover {
+      color: $primary !important;
+    }
   }
 }
