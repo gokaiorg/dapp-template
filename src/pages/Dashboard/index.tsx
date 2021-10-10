@@ -56,16 +56,21 @@ const Dashboard = () => {
         <div className="col-12 col-md-10 px-0 mx-md-auto">
           <h1 className="text-white font-weight-bold my-5">Dashboard</h1>
           <TopInfo />
-          <div className="d-flex flex-column flex-md-row">
-            <div className="row">
-              <div className="col-12 col-md-6">
-                <Marketplace />
-              </div>
-              <div className="col-12 col-md-6">
-                <Academy />
-              </div>
+          <div className="row align-items-stretch">
+            <div className="col-12 col-lg-6 mb-4">
+              <Marketplace />
+            </div>
+            <div className="col-12 col-lg-6 mb-4">
+              <Academy />
             </div>
           </div>
+          <iframe
+            src="https://discord.com/widget?id=837354638818803722&theme=dark"
+            width="350"
+            height="500"
+            frameBorder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+          ></iframe>
         </div>
       </div>
     </div>

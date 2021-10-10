@@ -4,11 +4,11 @@ import { routeNames } from "../../../routes";
 
 const Academy = () => {
   return (
-    <div className="d-flex d-md-inline-flex flex-row text-white border-block text-xl">
+    <div className="d-flex d-md-inline-flex flex-row text-white border-block text-xl w-100">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="126"
-        height="126"
+        width="80"
+        height="80"
         viewBox="0 0 30 30"
         className="mr-4"
         fill="currentColor"
@@ -23,7 +23,7 @@ const Academy = () => {
         <p>Become the future of the Elrond Blockchain.</p>
         <Link
           to={routeNames.academy}
-          className="btn btn-link btn-lg bg-white mr-auto"
+          className="btn btn-link btn-lg bg-white mr-auto mt-auto"
         >
           Learn
         </Link>

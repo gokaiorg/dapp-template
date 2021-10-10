@@ -12,7 +12,7 @@ const Academy = () => {
           <Link to={routeNames.dashboard} className="text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="text-white social-icon mx-2"
+              className="text-white social-icon mr-2"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -22,7 +22,7 @@ const Academy = () => {
             </svg>
             Back to dashboard
           </Link>
-          <h1 className="text-white font-weight-bold my-5">Academy</h1>
+          <h1 className="text-white font-weight-bold mb-5">Academy</h1>
           <p className="text-xl text-white my-5">Coming soon!</p>
         </div>
       </div>

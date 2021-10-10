@@ -1,6 +1,8 @@
 import * as React from "react";
-import { routeNames } from "../../routes";
 import { Link } from "react-router-dom";
+import { routeNames } from "../../routes";
+import logo from "./../../assets/img/1.png";
+import { ReactComponent as ElrondLogo } from "./../../assets/img/elrond-symbol.svg";
 
 const Marketplace = () => {
   const ref = React.useRef(null);
@@ -12,7 +14,7 @@ const Marketplace = () => {
           <Link to={routeNames.dashboard} className="text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="text-white social-icon mx-2"
+              className="text-white social-icon mr-2"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -22,8 +24,89 @@ const Marketplace = () => {
             </svg>
             Back to dashboard
           </Link>
-          <h1 className="text-white font-weight-bold my-5">Marketplace</h1>
-          <p className="text-xl text-white my-5">Coming soon!</p>
+          <h1 className="text-white font-weight-bold mb-5">Marketplace</h1>
+          <div className="marketplace-list row">
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="d-flex flex-column border-block text-white">
+                <img className="block w-100 mb-3" src={logo} alt="Logo" />
+                <h2 className="text-xl font-weight-bold">eGhost #259</h2>
+                <p className="text-xl d-inline-flex align-items-center ml-auto mb-0">
+                  <ElrondLogo className="elrond-symbol text-white" />
+                  0.01
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="d-flex flex-column border-block text-white">
+                <img className="block w-100 mb-3" src={logo} alt="Logo" />
+                <h2 className="text-xl font-weight-bold">eGhost #259</h2>
+                <p className="text-xl d-inline-flex align-items-center ml-auto mb-0">
+                  <ElrondLogo className="elrond-symbol text-white" />
+                  0.01
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="d-flex flex-column border-block text-white">
+                <img className="block w-100 mb-3" src={logo} alt="Logo" />
+                <h2 className="text-xl font-weight-bold">eGhost #259</h2>
+                <p className="text-xl d-inline-flex align-items-center ml-auto mb-0">
+                  <ElrondLogo className="elrond-symbol text-white" />
+                  0.01
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="d-flex flex-column border-block text-white">
+                <img className="block w-100 mb-3" src={logo} alt="Logo" />
+                <h2 className="text-xl font-weight-bold">eGhost #259</h2>
+                <p className="text-xl d-inline-flex align-items-center ml-auto mb-0">
+                  <ElrondLogo className="elrond-symbol text-white" />
+                  0.01
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="d-flex flex-column border-block text-white">
+                <img className="block w-100 mb-3" src={logo} alt="Logo" />
+                <h2 className="text-xl font-weight-bold">eGhost #259</h2>
+                <p className="text-xl d-inline-flex align-items-center ml-auto mb-0">
+                  <ElrondLogo className="elrond-symbol text-white" />
+                  0.01
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="d-flex flex-column border-block text-white">
+                <img className="block w-100 mb-3" src={logo} alt="Logo" />
+                <h2 className="text-xl font-weight-bold">eGhost #259</h2>
+                <p className="text-xl d-inline-flex align-items-center ml-auto mb-0">
+                  <ElrondLogo className="elrond-symbol text-white" />
+                  0.01
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="d-flex flex-column border-block text-white">
+                <img className="block w-100 mb-3" src={logo} alt="Logo" />
+                <h2 className="text-xl font-weight-bold">eGhost #259</h2>
+                <p className="text-xl d-inline-flex align-items-center ml-auto mb-0">
+                  <ElrondLogo className="elrond-symbol text-white" />
+                  0.01
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="d-flex flex-column border-block text-white">
+                <img className="block w-100 mb-3" src={logo} alt="Logo" />
+                <h2 className="text-xl font-weight-bold">eGhost #259</h2>
+                <p className="text-xl d-inline-flex align-items-center ml-auto mb-0">
+                  <ElrondLogo className="elrond-symbol text-white" />
+                  0.01
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
