@@ -42,8 +42,8 @@ const Navbar = () => {
         <Nav className="ml-auto">
           {loggedIn && (
             <NavItem>
-              <a href="/" onClick={logOut} className="text-white">
-                Close
+              <a href="/" onClick={logOut} className="btn text-white">
+                Logout
               </a>
             </NavItem>
           )}

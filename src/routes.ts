@@ -7,6 +7,7 @@ import Marketplace from "./pages/Marketplace";
 import Academy from "./pages/Academy";
 import Home from "./pages/Home";
 import Transaction from "./pages/Transaction";
+import Metaverse from "pages/Metaverse";
 
 type RouteType = Dapp.RouteType & { title: string };
 
@@ -15,6 +16,7 @@ export const routeNames = {
   dashboard: "/dashboard",
   marketplace: "/marketplace",
   academy: "/academy",
+  metaverse: "/metaverse",
   transaction: "/transaction",
   unlock: "/unlock",
   ledger: "/ledger",
@@ -47,6 +49,11 @@ const routes: RouteType[] = [
     path: "/academy",
     title: "Academy",
     component: Academy,
+  },
+  {
+    path: "/metaverse",
+    title: "Metaverse",
+    component: Metaverse,
   },
 ];
 

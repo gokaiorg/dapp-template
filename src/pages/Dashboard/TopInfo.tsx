@@ -25,7 +25,7 @@ const TopInfo = () => {
           {address}
         </span>
       </div>
-      <div className="mb-4">
+      {/* <div className="mb-4">
         <span className="opacity-6 mr-1">Contract address:</span>
         <span
           className="text-truncate position-relative d-block"
@@ -34,7 +34,7 @@ const TopInfo = () => {
           {" "}
           {contractAddress}
         </span>
-      </div>
+      </div> */}
       <div>
         <h3 className="py-2">
           <Denominate value={balance} dataTestId="balance" />

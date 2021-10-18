@@ -6,6 +6,7 @@ import PageState from "components/PageState";
 import { contractAddress } from "config";
 import { useContext, useDispatch } from "context";
 import Academy from "./Academy";
+import Metaverse from "./Metaverse";
 import { getTransactions } from "./helpers/asyncRequests";
 import Marketplace from "./Marketplace";
 import TopInfo from "./TopInfo";
@@ -63,14 +64,10 @@ const Dashboard = () => {
             <div className="col-12 col-lg-6 mb-4">
               <Academy />
             </div>
+            <div className="col-12 col-lg-6 mb-4">
+              <Metaverse />
+            </div>
           </div>
-          <iframe
-            src="https://discord.com/widget?id=837354638818803722&theme=dark"
-            width="350"
-            height="500"
-            frameBorder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-          ></iframe>
         </div>
       </div>
     </div>

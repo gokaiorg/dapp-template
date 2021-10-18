@@ -1,13 +1,12 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
 import { routeNames } from "../../routes";
-import List from "./List";
+import { Link } from "react-router-dom";
 
-const Marketplace = () => {
+const Metaverse = () => {
   const ref = React.useRef(null);
 
   return (
-    <div className="marketplace border-top-main" ref={ref}>
+    <div className="metverse border-top-main" ref={ref}>
       <div className="container py-5">
         <div className="col-12 col-md-10 mx-auto">
           <Link to={routeNames.dashboard} className="text-white">
@@ -23,12 +22,12 @@ const Marketplace = () => {
             </svg>
             Back to dashboard
           </Link>
-          <h1 className="text-white font-weight-bold mb-5">Marketplace</h1>
-          <List />
+          <h1 className="text-white font-weight-bold mb-5">Metaverse</h1>
+          <p className="text-xl text-white my-5">Coming soon!</p>
         </div>
       </div>
     </div>
   );
 };
 
-export default Marketplace;
+export default Metaverse;

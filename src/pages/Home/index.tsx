@@ -10,10 +10,12 @@ const Home = () => {
         <div className="col-12 col-md-8">
           <div className="text-white">
             <h1 className="mb-5 text-6xl" data-testid="title">
-              Where dApp Elrond communities meet
+              The Metaverse Awaits
             </h1>
             <p className="mb-5 text-xl">
-              Login using your Elrond wallet to access an amazing world.
+              Welcome to the Elrond World community portal.
+              <br /> Securly login below using Elrond Network based connection
+              options
             </p>
             <Link
               to={routeNames.unlock}

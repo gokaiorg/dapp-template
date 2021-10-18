@@ -49,7 +49,11 @@ html {
 
 .bg-gradient-main {
   background: rgb(22, 24, 31);
-  background: linear-gradient(140deg, rgba(22, 24, 31, 1) 0%, rgba(49, 60, 101, 1) 100%);
+  background: linear-gradient(
+    140deg,
+    rgba(22, 24, 31, 1) 0%,
+    rgba(49, 60, 101, 1) 100%
+  );
 }
 
 .btn {
@@ -63,6 +67,15 @@ html {
   &:hover {
     background: #fff !important;
     color: #16181f !important;
+  }
+
+  &-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
   }
 }
 
@@ -99,7 +112,6 @@ table {
   th {
     color: $primary !important;
   }
-
 }
 
 /* Navbar
@@ -171,17 +183,16 @@ div[data-testid="unlockPage"] {
       }
     }
   }
-
 }
 
 /* Login container
 -------------------------------------------------- */
 .login-container {
-
   .card {
     margin: 0 1rem;
 
-    button, a {
+    button,
+    a {
       border-color: #16181f !important;
       color: #16181f !important;
     }
@@ -218,7 +229,6 @@ div[data-testid="unlockPage"] {
   }
 
   &.table {
-
     .transaction-hash .trim {
       @include media-breakpoint-down(xl) {
         max-width: none;
@@ -234,7 +244,8 @@ div[data-testid="unlockPage"] {
       }
     }
 
-    td, tr {
+    td,
+    tr {
       padding: 0.65rem;
     }
 
@@ -360,7 +371,6 @@ footer {
   }
 
   .button-icon {
-
     &:hover {
       color: $primary !important;
     }
