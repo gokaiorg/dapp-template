@@ -3,20 +3,14 @@ import * as Dapp from "@elrondnetwork/dapp";
 import { dAppName } from "config";
 import withPageTitle from "./components/PageTitle";
 import Dashboard from "./pages/Dashboard";
-import Marketplace from "./pages/Marketplace";
-import Academy from "./pages/Academy";
 import Home from "./pages/Home";
 import Transaction from "./pages/Transaction";
-import Metaverse from "pages/Metaverse";
 
 type RouteType = Dapp.RouteType & { title: string };
 
 export const routeNames = {
   home: "/",
   dashboard: "/dashboard",
-  marketplace: "/marketplace",
-  academy: "/academy",
-  metaverse: "/metaverse",
   transaction: "/transaction",
   unlock: "/unlock",
   ledger: "/ledger",
@@ -40,28 +34,11 @@ const routes: RouteType[] = [
     title: "Transaction",
     component: Transaction,
   },
-  {
-    path: "/marketplace",
-    title: "Marketplace",
-    component: Marketplace,
-  },
-  {
-    path: "/academy",
-    title: "Academy",
-    component: Academy,
-  },
-  {
-    path: "/metaverse",
-    title: "Metaverse",
-    component: Metaverse,
-  },
 ];
 
 const wrappedRoutes = () =>
   routes.map((route) => {
-    const title = route.title
-      ? `${route.title} • Elrond ${dAppName}`
-      : `Elrond ${dAppName}`;
+    const title = route.title ? `${route.title} - ${dAppName}` : `${dAppName}`;
     return {
       path: route.path,
       authenticatedRoute: Boolean(route.authenticatedRoute),

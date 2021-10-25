@@ -11,7 +11,7 @@ const TopInfo = () => {
 
   return (
     <div
-      className="d-inline-flex flex-column text-white border-block text-xl w-100 mb-5"
+      className="d-inline-flex flex-column text-black border-block text-xl w-100 mb-5"
       data-testid="topInfo"
     >
       <h2 className="font-weight-bold">Profile</h2>

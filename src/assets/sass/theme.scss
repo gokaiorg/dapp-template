@@ -15,11 +15,18 @@ Override Bootstrap variables only above.
 // Dapp-utils
 @import "./../../../node_modules/@elrondnetwork/dapp-utils/dist/dapp-utils.scss";
 
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 /* Base
 -------------------------------------------------- */
 html {
   min-height: 100%;
   font-size: 14px;
+}
+
+body {
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .wrapper {
@@ -28,6 +35,10 @@ html {
 
 .opacity-6 {
   opacity: 0.6;
+}
+
+.text-xl {
+  font-size: 1.5rem !important;
 }
 
 .dapp-icon {
@@ -47,26 +58,27 @@ html {
   }
 }
 
-.bg-gradient-main {
-  background: rgb(22, 24, 31);
-  background: linear-gradient(
-    140deg,
-    rgba(22, 24, 31, 1) 0%,
-    rgba(49, 60, 101, 1) 100%
-  );
-}
-
 .btn {
-  border-radius: 2rem !important;
+  border-radius: 3rem !important;
   text-decoration: none !important;
-  background: transparent !important;
-  color: $white !important;
+  color: $black !important;
+  background: $white !important;
   border: 1px solid $white !important;
-  font-size: 1.25rem !important;
+  font-size: 1.5rem !important;
+  padding: 1rem 2rem !important;
 
   &:hover {
-    background: #fff !important;
-    color: #16181f !important;
+    background: rgba(5,203,195,1) !important;
+    border: 1px solid rgba(5,203,195,1) !important;
+  }
+
+  &-revert {
+    color: $white !important;
+    background: $black !important;
+    border: 1px solid $black !important;
+    &:hover {
+      color: $black !important;
+    }
   }
 
   &-icon {
@@ -76,6 +88,10 @@ html {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+  }
+
+  &-lg {
+    padding: 1rem 2rem;
   }
 }
 
@@ -100,7 +116,7 @@ html {
 }
 
 .elrond-symbol {
-  color: #fff;
+  color: #000;
   margin-right: 0.5rem;
 }
 
@@ -117,14 +133,21 @@ table {
 /* Navbar
 -------------------------------------------------- */
 .dapp-logo {
-  color: $white;
   margin-right: 0.8rem;
+  width: 30px;
 }
 
 .dapp-name {
   line-height: 1;
   border-left: 1px solid $gray-400;
   padding-left: 0.8rem;
+}
+
+
+/* Navbar
+-------------------------------------------------- */
+.hero {
+  background-image: url("./../../assets/img/banner-hero.jpg");
 }
 
 /* Unlock page
@@ -154,7 +177,7 @@ div[data-testid="unlockPage"] {
 
     &::before {
       content: "Login";
-      color: $white;
+      color: $black;
       font-weight: 700 !important;
       margin-bottom: 3rem !important;
       font-size: 2em;
@@ -169,8 +192,8 @@ div[data-testid="unlockPage"] {
       }
 
       p {
-        color: $white;
-        font-size: 1.25rem !important;
+        color: $black;
+        font-size: 1.5rem !important;
       }
 
       div {
@@ -178,7 +201,14 @@ div[data-testid="unlockPage"] {
         flex-direction: column;
 
         .btn {
-          margin: 0 0 1rem 0 !important;
+          color: $white !important;
+          background: $black !important;
+          border: 1px solid $black !important;
+          &:hover {
+            color: $black !important;
+            background: rgba(5,203,195,1) !important;
+            border: 1px solid rgba(5,203,195,1) !important;
+          }
         }
       }
     }
@@ -360,7 +390,7 @@ footer {
         width: 16px;
 
         path {
-          fill: #c00;
+          fill: #000;
         }
       }
     }
