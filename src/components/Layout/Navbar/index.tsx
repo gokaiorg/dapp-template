@@ -3,6 +3,7 @@ import * as Dapp from "@elrondnetwork/dapp";
 import { Navbar as BsNavbar, NavItem, Nav } from "react-bootstrap";
 import { Link, Route, Switch, useHistory } from "react-router-dom";
 import { dAppName } from "config";
+import TopInfo from "../../../components/Layout/Navbar/TopInfo";
 
 const Navbar = () => {
   const { loggedIn } = Dapp.useContext();
@@ -42,7 +43,8 @@ const Navbar = () => {
         </Link>
         <Nav className="ml-auto">
           {loggedIn && (
-            <NavItem>
+            <NavItem className="d-flex flex-row align-items-center">
+              <TopInfo />
               <a
                 href="/"
                 onClick={logOut}

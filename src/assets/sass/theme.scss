@@ -16,7 +16,7 @@ Override Bootstrap variables only above.
 @import "./../../../node_modules/@elrondnetwork/dapp-utils/dist/dapp-utils.scss";
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 /* Base
 -------------------------------------------------- */
@@ -26,7 +26,11 @@ html {
 }
 
 body {
-  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  margin: 0;
 }
 
 .wrapper {
@@ -78,6 +82,14 @@ body {
     border: 1px solid $black !important;
     &:hover {
       color: $black !important;
+    }
+  }
+  &-third {
+    background: rgba(5,203,195,1) !important;
+    border: 1px solid rgba(5,203,195,1) !important;
+    &:hover {
+      color: $white !important;
+      background: $black !important;
     }
   }
 
@@ -143,6 +155,18 @@ table {
   padding-left: 0.8rem;
 }
 
+.top-info {
+  font-size: 1rem;
+  &-address {
+    max-width: 120px;
+  }
+  .symbol {
+    display: none;
+  }
+  .elrond-symbol {
+    width: 14px;
+  }
+}
 
 /* Navbar
 -------------------------------------------------- */

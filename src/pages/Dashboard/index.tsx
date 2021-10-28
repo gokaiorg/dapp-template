@@ -6,7 +6,8 @@ import PageState from "components/PageState";
 import { contractAddress } from "config";
 import { useContext, useDispatch } from "context";
 import { getTransactions } from "./helpers/asyncRequests";
-import TopInfo from "./TopInfo";
+import EghostList from "./EghostMint";
+import EghostLayers from "./EghostLayers";
 
 const Dashboard = () => {
   const ref = React.useRef(null);
@@ -52,19 +53,9 @@ const Dashboard = () => {
     <div className="dashboard border-top-main" ref={ref}>
       <div className="container py-4">
         <div className="col-12 col-md-10 px-0 mx-md-auto">
-          <h1 className="text-white font-weight-bold my-5">Dashboard</h1>
-          <TopInfo />
-          <div className="row align-items-stretch">
-            {/*<div className="col-12 col-lg-6 mb-4">*/}
-            {/*  <Marketplace />*/}
-            {/*</div>*/}
-            {/*<div className="col-12 col-lg-6 mb-4">*/}
-            {/*  <Academy />*/}
-            {/*</div>*/}
-            {/*<div className="col-12 col-lg-6 mb-4">*/}
-            {/*  <Metaverse />*/}
-            {/*</div>*/}
-          </div>
+          <h1 className="text-black font-weight-bold my-5">Mint an eGhost</h1>
+          <EghostList />
+          <EghostLayers />
         </div>
       </div>
     </div>
