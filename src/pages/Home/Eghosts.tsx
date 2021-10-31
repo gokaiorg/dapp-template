@@ -22,20 +22,25 @@ const Eghosts = () => {
             Im not afraid
           </Link>
         </div>
-        <div className="col-12 mt-5 pb-5">
+        <div className="d-flex flex-row col-12 mt-5 pb-5">
           <img
-            className="block w-100 p-0 m-0 col-lg-3 mr-5 mb-5"
-            src={EghostsLogo}
+            className="d-flex p-0 m-0 col-sm-6 col-lg-3 mr-3 mb-5"
+            src="https://ipfs.io/ipfs/QmSCc1WR7qV5FpCnhuiitPssWRNk5CyRbk5QCF4VQVLoNk"
             alt="Eghosts"
           />
           <img
-            className="block w-100 p-0 m-0 col-lg-3 mr-5 mb-5"
-            src={EghostsLogo}
+            className="d-flex p-0 m-0 col-sm-6 col-lg-3 mr-3 mb-5"
+            src="https://ipfs.io/ipfs/QmVj2f8APey7fE5AV6c7PukfUB95Bq5AufAmUJK3WAVJqY"
             alt="Eghosts"
           />
           <img
-            className="block w-100 p-0 m-0 col-lg-3 mr-5 mb-5"
-            src={EghostsLogo}
+            className="d-flex p-0 m-0 col-sm-6 col-lg-3 mr-3 mb-5"
+            src="https://ipfs.io/ipfs/QmeaH7B61HQUGweGD1tACidx4VxVc16qh46j3ZGVJQtMKh"
+            alt="Eghosts"
+          />
+          <img
+            className="d-flex p-0 m-0 col-sm-6 col-lg-3 mb-5"
+            src="https://ipfs.io/ipfs/QmQhVfNhGz3BHNTZqmUuQ6ErFdkHWeoA4ZFocp9NU2LaXM"
             alt="Eghosts"
           />
         </div>

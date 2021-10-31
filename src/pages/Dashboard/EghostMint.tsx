@@ -1,5 +1,4 @@
 import * as React from "react";
-import EghostsLogo from "../../assets/img/eGhosts.png";
 
 const EghostMint = () => {
   return (
@@ -9,7 +8,7 @@ const EghostMint = () => {
     >
       <img
         className="block w-100 p-0 m-0 col-lg-6 mr-lg-5 mb-5"
-        src={EghostsLogo}
+        src="https://ipfs.io/ipfs/QmSCc1WR7qV5FpCnhuiitPssWRNk5CyRbk5QCF4VQVLoNk"
         alt="Eghosts"
       />
       <div className="eghost-mint-info col-lg-6 p-0 pl-lg-3">
@@ -50,17 +49,6 @@ const EghostMint = () => {
             <p className="font-weight-bold mr-1">eGlasses</p>
             <p>Tourist</p>
           </li>
-          <ul className="text-secondary small list-unstyled p-0">
-            <li>
-              <span className="font-weight-bold">Attack</span> 9
-            </li>
-            <li>
-              <span className="font-weight-bold">Defense</span> 11
-            </li>
-            <li>
-              <span className="font-weight-bold">Speed</span> 7
-            </li>
-          </ul>
         </ul>
         <a href="#" className="btn btn-third text-black">
           Mint soon

@@ -19,18 +19,6 @@ const Evanescences = () => {
             alt="Eghosts"
           />
           <h5 className="font-weight-bold">Azure</h5>
-          <p className="text-secondary small">70% Slime / 30% Yogurt</p>
-          <ul className="text-secondary small list-unstyled p-0">
-            <li>
-              <span className="font-weight-bold">Attack</span> 0
-            </li>
-            <li>
-              <span className="font-weight-bold">Defense</span> 0
-            </li>
-            <li>
-              <span className="font-weight-bold">Speed</span> 1
-            </li>
-          </ul>
         </div>
         <div className="d-flex flex-column col-sm-6 col-xl-3 pb-3">
           <img
@@ -39,18 +27,6 @@ const Evanescences = () => {
             alt="Eghosts"
           />
           <h5 className="font-weight-bold">Razzle</h5>
-          <p className="text-secondary small">70% Candy - 30% Cloud</p>
-          <ul className="text-secondary small list-unstyled p-0">
-            <li>
-              <span className="font-weight-bold">Attack</span> 0
-            </li>
-            <li>
-              <span className="font-weight-bold">Defense</span> 1
-            </li>
-            <li>
-              <span className="font-weight-bold">Speed</span> 0
-            </li>
-          </ul>
         </div>
         <div className="d-flex flex-column col-sm-6 col-xl-3 pb-3">
           <img
@@ -59,18 +35,6 @@ const Evanescences = () => {
             alt="Eghosts"
           />
           <h5 className="font-weight-bold">YellowSea</h5>
-          <p className="text-secondary small">70% Pumpkin - 30% Bat</p>
-          <ul className="text-secondary small list-unstyled p-0">
-            <li>
-              <span className="font-weight-bold">Attack</span> 1
-            </li>
-            <li>
-              <span className="font-weight-bold">Defense</span> 0
-            </li>
-            <li>
-              <span className="font-weight-bold">Speed</span> 0
-            </li>
-          </ul>
         </div>
         <div className="d-flex flex-column col-sm-6 col-xl-3 pb-3">
           <img
@@ -79,23 +43,11 @@ const Evanescences = () => {
             alt="Eghosts"
           />
           <h5 className="font-weight-bold">Apple</h5>
-          <p className="text-secondary small">70% Apple - 30% Snot</p>
-          <ul className="text-secondary small list-unstyled p-0">
-            <li>
-              <span className="font-weight-bold">Attack</span> 0
-            </li>
-            <li>
-              <span className="font-weight-bold">Defense</span> 1
-            </li>
-            <li>
-              <span className="font-weight-bold">Speed</span> 0
-            </li>
-          </ul>
         </div>
       </div>
       <h4 className="d-flex mb-2 text-secondary font-weight-bold">Rare</h4>
       <p className="d-flex mb-3 small">Coming Soon</p>
-      <h4 className="d-flex mb-2 text-secondary font-weight-bold">Mythic</h4>
+      <h4 className="d-flex mb-2 text-secondary font-weight-bold">Mystic</h4>
       <p className="d-flex mb-3 small">Coming Soon</p>
     </div>
   );

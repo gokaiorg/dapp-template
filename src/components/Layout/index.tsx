@@ -16,7 +16,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   }, [loggedIn]);
 
   return (
-    <div className="d-flex flex-column flex-fill wrapper">
+    <div className="d-flex flex-column flex-fill wrapper overflow-hidden">
       <Navbar />
       <main className="d-flex flex-column flex-grow-1">
         <Dapp.Authenticate routes={routes} unlockRoute={routeNames.unlock}>

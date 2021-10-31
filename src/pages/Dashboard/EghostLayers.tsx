@@ -35,7 +35,7 @@ const EghostLayers = () => {
       </p>
       <p className="d-flex mb-5">
         So there may only be 666 eGhosts minted forever. Or maybe we will reach
-        the thirteenth, but who knows what tomorrow is made of?
+        the thirteenth set, but who knows what tomorrow is made of?
       </p>
       <Evanescences />
       <Ectoplasms />
