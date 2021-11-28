@@ -2,13 +2,19 @@ import React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import { dAppName } from "config";
 import withPageTitle from "./components/PageTitle";
+import About from "./pages/About";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
+import MaiarGhosts from "./pages/MGhosts";
+import Roadmap from "./pages/Roadmap";
 import Transaction from "./pages/Transaction";
 
 type RouteType = Dapp.RouteType & { title: string };
 
 export const routeNames = {
+  About: "/about",
+  Roadmap: "/roadmap",
+  MaiarGhosts: "/maiar-ghosts",
   home: "/",
   dashboard: "/dashboard",
   transaction: "/transaction",
@@ -18,6 +24,21 @@ export const routeNames = {
 };
 
 const routes: RouteType[] = [
+  {
+    path: "/roadmap",
+    title: "Roadmap",
+    component: Roadmap,
+  },
+  {
+    path: "/about",
+    title: "About",
+    component: About,
+  },
+  {
+    path: "/maiar-ghosts",
+    title: "MaiarGhosts",
+    component: MaiarGhosts,
+  },
   {
     path: "/",
     title: "Home",

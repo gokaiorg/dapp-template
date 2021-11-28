@@ -16,7 +16,7 @@ const Evanescences = () => {
           <img
             className="block w-100 p-0 m-0 mb-3"
             src="https://ipfs.io/ipfs/QmVd9b3M7h7mQMu5RBBK9R8jnos7N9EuVcw9WLtphndrvo"
-            alt="Eghosts"
+            alt="Mghosts"
           />
           <h5 className="font-weight-bold">Azure</h5>
         </div>
@@ -24,7 +24,7 @@ const Evanescences = () => {
           <img
             className="block w-100 p-0 m-0 mb-3"
             src="https://ipfs.io/ipfs/QmQG2sxLhDmwovh24U2QXUE3VF3WKwXmx7rLYB6NGKAbpX"
-            alt="Eghosts"
+            alt="Mghosts"
           />
           <h5 className="font-weight-bold">Razzle</h5>
         </div>
@@ -32,7 +32,7 @@ const Evanescences = () => {
           <img
             className="block w-100 p-0 m-0 mb-3"
             src="https://ipfs.io/ipfs/QmVHuEBw2MKMkWD3j1EMpmioBhrFetfAiXLxKgcCNVBsPp"
-            alt="Eghosts"
+            alt="Mghosts"
           />
           <h5 className="font-weight-bold">YellowSea</h5>
         </div>
@@ -40,7 +40,7 @@ const Evanescences = () => {
           <img
             className="block w-100 p-0 m-0 mb-3"
             src="https://ipfs.io/ipfs/QmYR2mFddPq3g1DwAUmaiULtKC4jDbTze9KSJsgLEEuprE"
-            alt="Eghosts"
+            alt="Mghosts"
           />
           <h5 className="font-weight-bold">Apple</h5>
         </div>

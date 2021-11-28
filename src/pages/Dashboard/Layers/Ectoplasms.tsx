@@ -14,7 +14,7 @@ const Ectoplasms = () => {
           <img
             className="block w-100 p-0 m-0 mb-3"
             src="https://ipfs.io/ipfs/QmXxyKknQiXtZMrZeFVzxnoqjjQpN9vxeiyaysjb7ZmYvF"
-            alt="Eghosts"
+            alt="Mghosts"
           />
           <h5 className="font-weight-bold">Maiar</h5>
           <p className="text-secondary small">Spookiness 5</p>
@@ -23,7 +23,7 @@ const Ectoplasms = () => {
           <img
             className="block w-100 p-0 m-0 mb-3"
             src="https://ipfs.io/ipfs/QmZSv2jaksfq75GWHv3C2h6MJhAsrHDEEEYTapD54sXHxh"
-            alt="Eghosts"
+            alt="Mghosts"
           />
           <h5 className="font-weight-bold">Elf</h5>
         </div>
@@ -31,7 +31,7 @@ const Ectoplasms = () => {
           <img
             className="block w-100 p-0 m-0 mb-3"
             src="https://ipfs.io/ipfs/QmYz75tfk6Aomd4TG7LTmjZTFXFx1peLL9cPM9vCa8ANvP"
-            alt="Eghosts"
+            alt="Mghosts"
           />
           <h5 className="font-weight-bold">Human</h5>
         </div>
@@ -39,7 +39,7 @@ const Ectoplasms = () => {
           <img
             className="block w-100 p-0 m-0 mb-3"
             src="https://ipfs.io/ipfs/QmYwesmFLHMe18LxhojTNRrpscCrWXtuCepBwpiRHySopF"
-            alt="Eghosts"
+            alt="Mghosts"
           />
           <h5 className="font-weight-bold">Alien</h5>
         </div>

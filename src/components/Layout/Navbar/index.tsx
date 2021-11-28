@@ -1,9 +1,10 @@
 import React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import { Navbar as BsNavbar, NavItem, Nav } from "react-bootstrap";
-import { Link, Route, Switch, useHistory } from "react-router-dom";
+import { Link, NavLink, useHistory } from "react-router-dom";
 import { dAppName } from "config";
 import TopInfo from "../../../components/Layout/Navbar/TopInfo";
+import { routeNames } from "../../../routes";
 
 const Navbar = () => {
   const { loggedIn } = Dapp.useContext();
@@ -37,20 +38,75 @@ const Navbar = () => {
               />
             </g>
           </svg>
-          <span className="dapp-name text-secondary font-weight-bold">
+          <span className="dapp-name text-black font-weight-bold">
             {dAppName}
           </span>
+          <span className="ml-3">Devnet</span>
         </Link>
         <Nav className="ml-auto">
+          <NavItem className="d-flex flex-row align-items-center">
+            <NavLink
+              to={routeNames.Roadmap}
+              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3"
+              data-testid="roadmap"
+              exact
+              activeClassName="active"
+            >
+              Roadmap
+            </NavLink>
+          </NavItem>
+          <NavItem className="d-flex flex-row align-items-center">
+            <NavLink
+              to={routeNames.About}
+              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3"
+              data-testid="about"
+              activeClassName="active"
+            >
+              About
+            </NavLink>
+          </NavItem>
+          {!loggedIn && (
+            <NavLink
+              to={routeNames.unlock}
+              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3"
+              data-testid="loginBtn"
+              activeClassName="active"
+            >
+              <svg
+                width="24px"
+                xmlns="http://www.w3.org/2000/svg"
+                className="mr-2 button-icon"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
+              </svg>
+              Login
+            </NavLink>
+          )}
           {loggedIn && (
-            <NavItem className="d-flex flex-row align-items-center">
-              <TopInfo />
+            <NavItem className="d-flex flex-row align-items-center ml-3">
+              {/*<TopInfo />*/}
               <a
                 href="/"
                 onClick={logOut}
                 className="btn btn-revert text-black"
+                title="Logout"
               >
-                Logout
+                <svg
+                  width="24px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  stroke="currentColor"
+                  fill="currentColor"
+                  className="mx-auto"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z"
+                    clipRule="evenodd"
+                  />
+                </svg>
               </a>
             </NavItem>
           )}

@@ -1,12 +1,14 @@
 import * as React from "react";
 import Hero from "./Hero";
-import Eghosts from "./Eghosts";
+import Maiar from "./Maiar";
+import Mghosts from "./Mghosts";
 
 const Home = () => {
   return (
     <div className="d-flex flex-column container-fluid p-0">
       <Hero />
-      <Eghosts />
+      <Mghosts />
+      <Maiar />
     </div>
   );
 };

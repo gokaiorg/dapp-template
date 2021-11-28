@@ -1,42 +1,34 @@
 import * as React from "react";
+import * as Dapp from "@elrondnetwork/dapp";
 import { Link } from "react-router-dom";
 import { routeNames } from "../../routes";
-import Eghosts from "./../../assets/img/beni-hero.png";
+import Mghosts from "./../../assets/img/beni-hero.png";
 
 const Hero = () => {
   return (
     <div className="hero container-fluid">
-      <div className="container d-flex flex-row align-items-center">
+      <div className="container d-flex flex-row align-items-end">
         <div className="col-4 h-auto">
           <img
             className="block m-0 p-0 block w-100"
-            src={Eghosts}
-            alt="Eghosts"
+            src={Mghosts}
+            alt="Mghosts"
           />
         </div>
         <div className="text-white my-3 py-3 col-8">
           <h1 className="mb-3 text-6xl font-weight-bold" data-testid="title">
             Hey eGold lover
           </h1>
-          <p className="mb-5 text-xl">
+          <p className="mb-5 text-xl text-shadow">
             We are a passionate and creative team that takes the time to build
-            things for you on the Elrond network.
+            things for you on the Elrond Network.
           </p>
           <Link
-            to={routeNames.unlock}
+            to={routeNames.About}
             className="btn btn-link btn-lg ml-auto d-inline-flex"
-            data-testid="loginBtn"
+            data-testid="about"
           >
-            <svg
-              width="24px"
-              xmlns="http://www.w3.org/2000/svg"
-              className="mr-2 button-icon"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
-            </svg>
-            Login
+            Discover
           </Link>
         </div>
       </div>

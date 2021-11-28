@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PageState from "components/PageState";
 import { contractAddress } from "config";
 import { useContext, useDispatch } from "context";
+import Hero from "../Home/Hero";
+import Mghosts from "../Home/Mghosts";
 import { getTransactions } from "./helpers/asyncRequests";
-import EghostList from "./EghostMint";
-import EghostLayers from "./EghostLayers";
 
 const Dashboard = () => {
   const ref = React.useRef(null);
@@ -51,12 +51,9 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard border-top-main" ref={ref}>
-      <div className="container py-4">
-        <div className="col-12 col-md-10 px-0 mx-md-auto">
-          <h1 className="text-black font-weight-bold my-5">Mint an eGhost</h1>
-          <EghostList />
-          <EghostLayers />
-        </div>
+      <div className="d-flex flex-column container-fluid p-0">
+        <Hero />
+        <Mghosts />
       </div>
     </div>
   );

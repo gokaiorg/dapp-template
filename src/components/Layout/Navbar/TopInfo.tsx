@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
-import Denominate from "./../../../components/Denominate";
 import { ReactComponent as ElrondLogo } from "./../../../assets/img/elrond-symbol.svg";
+import Denominate from "./../../../components/Denominate";
 
 const TopInfo = () => {
   const {
