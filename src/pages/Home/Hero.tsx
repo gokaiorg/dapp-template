@@ -1,5 +1,4 @@
 import * as React from "react";
-import * as Dapp from "@elrondnetwork/dapp";
 import { Link } from "react-router-dom";
 import { routeNames } from "../../routes";
 import Mghosts from "./../../assets/img/beni-hero.png";
@@ -7,15 +6,15 @@ import Mghosts from "./../../assets/img/beni-hero.png";
 const Hero = () => {
   return (
     <div className="hero container-fluid">
-      <div className="container d-flex flex-row align-items-end">
-        <div className="col-4 h-auto">
+      <div className="container d-flex flex-row align-items-end p-0">
+        <div className="d-none d-md-block col-4 h-auto">
           <img
             className="block m-0 p-0 block w-100"
             src={Mghosts}
             alt="Mghosts"
           />
         </div>
-        <div className="text-white my-3 py-3 col-8">
+        <div className="text-white my-4 col-md-8">
           <h1 className="mb-3 text-6xl font-weight-bold" data-testid="title">
             Hey eGold lover
           </h1>
@@ -25,7 +24,7 @@ const Hero = () => {
           </p>
           <Link
             to={routeNames.About}
-            className="btn btn-link btn-lg ml-auto d-inline-flex"
+            className="btn btn-link btn-lg ml-auto d-inline-flex mb-3"
             data-testid="about"
           >
             Discover

@@ -4,14 +4,14 @@ import MGhostImg from "../../assets/img/MGhost-to-mint.png";
 
 const Mghosts = () => {
   return (
-    <div className="eghosts container-fluid bg-light">
-      <div className="container d-flex flex-row align-items-center">
-        <div className="text-black my-5 col-9">
+    <div className="mghosts container-fluid bg-light py-5">
+      <div className="container d-flex flex-column-reverse flex-md-row align-items-center p-0">
+        <div className="text-black my-5 col-md-9">
           <h1 className="mb-3 text-4xl font-weight-bold" data-testid="title">
             Maiar Ghosts
           </h1>
           <p className="mb-5 text-xl p-0">
-            I hope you are not too scared of ghosts? Several thousand of Mghosts
+            I hope you are not too scared of ghosts? Several thousand of MGhosts
             will soon be generated for the Maiar NFTs marketplace.
           </p>
           <Link
@@ -21,12 +21,8 @@ const Mghosts = () => {
             Im not afraid
           </Link>
         </div>
-        <div className="col-3 mt-5 pb-5">
-          <img
-            className="block w-100 p-0 m-0 mb-5"
-            src={MGhostImg}
-            alt="Mghosts"
-          />
+        <div className="col-md-3 my-3">
+          <img className="block w-100 p-0 m-0" src={MGhostImg} alt="Mghosts" />
         </div>
       </div>
     </div>

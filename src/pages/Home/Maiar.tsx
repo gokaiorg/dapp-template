@@ -2,9 +2,9 @@ import * as React from "react";
 
 const Mghosts = () => {
   return (
-    <div className="install-maiar container-fluid bg-white">
-      <div className="container d-flex flex-row align-items-center my-5">
-        <div className="col-1">
+    <div className="install-maiar container-fluid bg-white p-0">
+      <div className="container d-flex flex-column align-items-center my-5 text-center p-0">
+        <div className="col mb-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50px"
@@ -53,16 +53,16 @@ const Mghosts = () => {
             </g>
           </svg>
         </div>
-        <div className="text-black col-8">
+        <div className="text-black col-lg-8">
           <h1 className="mb-3 text-2xl font-weight-bold" data-testid="title">
             Install Maiar Wallet
           </h1>
-          <p className="text-xl p-0">
+          <p className="text-xl p-0 mb-5">
             To access the Elrond Network, we recommend that you install Maiar
             Wallet on your phone.
           </p>
         </div>
-        <div className="col-3">
+        <div className="col">
           <a
             href="https://get.maiar.com/referral/7nvae7kpo1"
             className="btn btn-revert btn-lg ml-auto d-inline-flex"

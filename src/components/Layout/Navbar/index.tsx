@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <BsNavbar className="p-0">
+    <BsNavbar expand="lg" bg="dark" className="p-0">
       <div className="container-fluid bg-white p-3">
         <Link
           className="d-flex align-items-center navbar-brand mr-0 w-100"

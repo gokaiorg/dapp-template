@@ -144,6 +144,9 @@ p {
 .text-6xl {
   font-size: 4rem;
   font-weight: bold !important;
+  @include media-breakpoint-down(sm) {
+    font-size: 3rem;
+  }
 }
 
 .text-shadow {
