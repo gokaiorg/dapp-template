@@ -2,6 +2,7 @@ import * as React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import MGhostMint from "./MGhostMint";
+import Story from "./Story";
 
 const MGhosts = () => {
   return (
@@ -25,6 +26,9 @@ const MGhosts = () => {
           >
             <Tab eventKey="nfts" title="Mint" tabClassName="btn btn-tab mx-3">
               <MGhostMint />
+            </Tab>
+            <Tab eventKey="story" title="Story" tabClassName="btn btn-tab mx-3">
+              <Story />
             </Tab>
             <Tab
               eventKey="tokens"
