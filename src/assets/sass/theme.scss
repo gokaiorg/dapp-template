@@ -205,7 +205,19 @@ table {
   }
 }
 
-/* Navbar
+.navbar-collapse {
+  @include media-breakpoint-down(md) {
+    position: absolute;
+    z-index: 10;
+    top: 91px;
+    right: 0;
+    background: white;
+    width: -webkit-fill-available;
+    border-bottom: 1px solid #9ba5b4;
+  }
+}
+
+/* Hero
 -------------------------------------------------- */
 .hero {
   background-image: url("./../../assets/img/banner-hero.jpg");

@@ -15,9 +15,9 @@ const MGhosts = () => {
             Maiar Ghosts
           </h1>
           <ul className="list-unstyled d-flex flex-row justify-content-center text-center text-white text-4xl p-0">
-            <li className="mx-3">243 owners</li>
-            <li className="mx-3">489 minted</li>
-            <li className="mx-3">8658 max supply</li>
+            <li className="mx-3">184 owners</li>
+            <li className="mx-3">0 minted</li>
+            <li className="mx-3">666 max supply</li>
           </ul>
           <Tabs
             defaultActiveKey="nfts"

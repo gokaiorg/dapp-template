@@ -10,13 +10,14 @@ const About = () => {
             Hello, we are a magic team!
           </h1>
           <p className="text-xl mb-5">
-            Phasellus blandit leo ut odio. Etiam rhoncus. Ut non enim eleifend
-            felis pretium feugiat. Aenean ut eros et nisl sagittis vestibulum.
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam eget
-            dui.
+            We are a team of enthusiasts who create for the Elrond network
+            community. Our first creation will be a collection of NFT in
+            celebration of the Maiar application. Collaborations with developers
+            and other artists are underway to give our creations a utility and
+            offer you more creative content.
           </p>
           <div className="d-flex flex-row row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 mb-5 mb-lg-0">
               <img
                 className="block w-75 p-0 m-0 mb-5 rounded-circle"
                 src={MGhostImg}
@@ -26,17 +27,17 @@ const About = () => {
               <h4>Founder & project manager</h4>
               <h3 className="text-xl text-secondary">@gokai</h3>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 mb-5 mb-lg-0">
               <img
                 className="block w-75 p-0 m-0 mb-5 rounded-circle"
                 src={MGhostImg}
                 alt="Mghosts"
               />
-              <h2 className="text-xl font-weight-bold">Albet Lanne</h2>
+              <h2 className="text-xl font-weight-bold">Albert Lanne</h2>
               <h4>Seo & social media expert</h4>
               <h3 className="text-xl text-secondary">@bebert</h3>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 mb-5 mb-lg-0">
               <img
                 className="block w-75 p-0 m-0 mb-5 rounded-circle"
                 src={MGhostImg}
