@@ -6,6 +6,7 @@ import PageNotFoud from "./components/PageNotFoud";
 import * as config from "./config";
 import { ContextProvider } from "./context";
 import routes, { routeNames } from "./routes";
+import "./styles/output.css";
 
 export default function App() {
   return (

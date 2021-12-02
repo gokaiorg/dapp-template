@@ -5,11 +5,11 @@ import { routeNames } from "routes";
 
 const Home = () => {
   return (
-    <div className="d-flex flex-fill align-items-center container">
-      <div className="row w-100">
-        <div className="col-12 col-md-8 col-lg-5 mx-auto">
-          <div className="card shadow-sm rounded p-4 border-0">
-            <div className="card-body text-center">
+    <div className="flex items-center">
+      <div className="w-full">
+        <div className="w-full">
+          <div className="w-full">
+            <div className="w-full">
               <h2 className="mb-3" data-testid="title">
                 {dAppName}
               </h2>
@@ -21,7 +21,7 @@ const Home = () => {
 
               <Link
                 to={routeNames.unlock}
-                className="btn btn-primary mt-3"
+                className="px-6 py-4 border-2 border-black border-solid rounded-lg mt-3"
                 data-testid="loginBtn"
               >
                 Login

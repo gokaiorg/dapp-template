@@ -14,8 +14,8 @@ const PageState = ({
   spin?: boolean;
 }) => {
   return (
-    <div className="d-flex flex-fill align-items-center container page-state">
-      <div className="row w-100">
+    <div className="flex items-center page-state">
+      <div className="w-full">
         {spin ? (
           <div className="col-12 text-center" data-testid="loader">
             <div className="lds-ellipsis mx-auto mt-5 mb-5">
@@ -26,9 +26,9 @@ const PageState = ({
             </div>
           </div>
         ) : (
-          <div className="col-12 col-md-8 col-lg-5 mx-auto">
+          <div className="w-full">
             <div className="card shadow-sm rounded p-5 border-0">
-              <div className="card-body text-center d-flex flex-column justify-content-center">
+              <div className="w-full d-flex flex-column justify-content-center">
                 <div className={`icon ${className ? className : ""}`}>
                   {svgComponent}
                 </div>
