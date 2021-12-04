@@ -25,6 +25,10 @@ Override Bootstrap variables only above.
   src: local("MGhostFont"), url(../../assets/fonts/Againts.woff) format("woff");
 }
 
+
+.font-mghosts {
+  font-family: "MGhostFont";
+}
 /* Base
 -------------------------------------------------- */
 html {
@@ -502,7 +506,6 @@ footer {
 
 .bg-ghosts {
   background: #000;
-  font-family: "MGhostFont";
 }
 
 .mghost-input {

@@ -6,7 +6,7 @@ import { routeNames } from "../../routes";
 const MGhostMint = () => {
   return (
     <div
-      className="d-flex flex-column text-white text-xl w-100 p-0 m-0 col-lg-5 mx-auto mb-5"
+      className="d-flex flex-column text-white text-xl w-100 p-0 m-0 col-lg-5 mx-auto mb-5 font-mghosts"
       data-testid="MGhostMint"
     >
       <img

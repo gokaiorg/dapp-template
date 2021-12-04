@@ -6,7 +6,7 @@ import { routeNames } from "../../routes";
 const Story = () => {
   return (
     <div
-      className="d-flex flex-column text-white w-100 p-0 m-0 mx-auto my-5 text-4xl"
+      className="d-flex flex-column text-white w-100 p-0 m-0 mx-auto my-5 text-xl text-center"
       data-testid="Story"
     >
       <h2 className="mb-3">

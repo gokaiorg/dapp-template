@@ -12,30 +12,40 @@ const MGhosts = () => {
     >
       <div className="container py-4">
         <div className="col-12 col-md-10 px-0 mx-md-auto">
-          <h1 className="text-white font-weight-bold mt-4 text-center text-6xl">
+          <h1 className="text-white font-weight-bold mt-4 text-center text-6xl font-mghosts">
             Maiar Ghosts
           </h1>
-          <ul className="list-unstyled d-flex flex-row justify-content-center text-center text-white text-4xl p-0">
+          <ul className="list-unstyled d-flex flex-column flex-sm-row justify-content-center text-center text-white text-4xl p-0 font-mghosts">
             <li className="mx-3">184 owners</li>
             <li className="mx-3">0 minted</li>
             <li className="mx-3">666 max supply</li>
           </ul>
           <Tabs
             defaultActiveKey="nfts"
-            className="mb-3 text-white text-xl border-0 justify-content-center"
+            className="mb-3 text-white text-xl border-0 justify-content-center flex-column flex-sm-row"
           >
-            <Tab eventKey="nfts" title="Mint" tabClassName="btn btn-tab mx-3">
+            <Tab
+              eventKey="nfts"
+              title="Mint"
+              tabClassName="btn btn-tab mx-3 mb-3 font-mghosts"
+            >
               <MGhostMint />
             </Tab>
-            <Tab eventKey="story" title="Story" tabClassName="btn btn-tab mx-3">
+            <Tab
+              eventKey="story"
+              title="Story"
+              tabClassName="btn btn-tab mx-3 mb-3 font-mghosts"
+            >
               <Story />
             </Tab>
             <Tab
               eventKey="tokens"
               title="Rarity"
-              tabClassName="btn btn-tab mx-3"
+              tabClassName="btn btn-tab mx-3 mb-3 font-mghosts"
             >
-              <p className="text-4xl text-white text-center">Coming soon!</p>
+              <p className="text-4xl text-white text-center font-mghosts">
+                Coming soon!
+              </p>
             </Tab>
           </Tabs>
         </div>
