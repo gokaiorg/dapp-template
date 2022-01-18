@@ -16,7 +16,7 @@ const MGhosts = () => {
             Maiar Ghosts
           </h1>
           <ul className="list-unstyled d-flex flex-column flex-sm-row justify-content-center text-center text-white text-4xl p-0 font-mghosts">
-            <li className="mx-3">184 owners</li>
+            <li className="mx-3">387 owners</li>
             <li className="mx-3">0 minted</li>
             <li className="mx-3">666 max supply</li>
           </ul>
@@ -37,15 +37,6 @@ const MGhosts = () => {
               tabClassName="btn btn-tab mx-3 mb-3 font-mghosts"
             >
               <Story />
-            </Tab>
-            <Tab
-              eventKey="tokens"
-              title="Rarity"
-              tabClassName="btn btn-tab mx-3 mb-3 font-mghosts"
-            >
-              <p className="text-4xl text-white text-center font-mghosts">
-                Coming soon!
-              </p>
             </Tab>
           </Tabs>
         </div>
