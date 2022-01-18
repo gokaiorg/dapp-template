@@ -3,6 +3,7 @@ import * as Dapp from "@elrondnetwork/dapp";
 import { dAppName } from "config";
 import withPageTitle from "./components/PageTitle";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import MaiarGhosts from "./pages/MGhosts";
@@ -13,6 +14,7 @@ type RouteType = Dapp.RouteType & { title: string };
 
 export const routeNames = {
   About: "/about",
+  Contact: "/contact",
   Roadmap: "/roadmap",
   MaiarGhosts: "/maiar-ghosts",
   home: "/",
@@ -33,6 +35,11 @@ const routes: RouteType[] = [
     path: "/about",
     title: "About",
     component: About,
+  },
+  {
+    path: "/contact",
+    title: "Contact",
+    component: Contact,
   },
   {
     path: "/maiar-ghosts",

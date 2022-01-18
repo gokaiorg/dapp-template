@@ -1,5 +1,4 @@
 import * as React from "react";
-import { HashLink as Link } from "react-router-hash-link";
 import MGhostImg from "../../assets/img/MGhost-to-mint.png";
 
 const Mghosts = () => {
@@ -11,15 +10,15 @@ const Mghosts = () => {
             Maiar Ghosts
           </h1>
           <p className="mb-5 text-xl p-0">
-            I hope you are not too scared of ghosts? Several thousand of MGhosts
-            will soon be generated for the Maiar NFTs marketplace.
+            I hope you are not too scared of ghosts? Several thousand of Mr
+            Ghosts will soon be minted on the Elrond Network.
           </p>
-          <Link
-            to="/maiar-ghosts#maiar-ghosts"
+          <a
+            href="/maiar-ghosts#maiar-ghosts"
             className="btn btn-revert btn-lg ml-auto d-inline-flex"
           >
             Im not afraid
-          </Link>
+          </a>
         </div>
         <div className="col-md-3 my-3">
           <img className="block w-100 p-0 m-0" src={MGhostImg} alt="Mghosts" />

@@ -10,19 +10,25 @@ const Story = () => {
       data-testid="Story"
     >
       <h2 className="mb-3">
-        The MGhost will haunt the Elrond Network forever.
+        The Maiar Ghosts collection was born out of the desire to create an NFT
+        around the M in the logo of the Elrond Network application, Maiar!
       </h2>
       <p className="mb-3">
-        13 sets of 666 will be generated but there will only be 666 Maiar Ghosts
-        ready for mint at launch. The first floor price will be 0.0666 $EGLD.
+        Each Mr Ghost is a unique NFT on the Elrond blockchain.
       </p>
-      <p className="mb-3">
-        Every month MGhosts holders will be invited to vote on whether a new set
-        of 666 MGhosts should be launched and also what floor price should be
-        given.
+      <p>
+        666 layers will build our Mr Ghosts. A total of 13 drops of 666 NFTs
+        will be generated for a maximum total of 8658 NFTs.
       </p>
-      <p className="mb-3">
-        With MGhosts you will enter the decentralized autonomous ghost world.
+      <p>
+        A part of the first drop is reserved for the 387 lucky ones who
+        participated in the giveaway.
+      </p>
+      <p> We will keep 66 for the team and marketing.</p>
+      <p>So there are only 213 Mr Ghosts available for this drop 1!</p>
+      <p>
+        We are sure that together we can make Mr Ghost a very popular character
+        in the Elrond community.
       </p>
     </div>
   );

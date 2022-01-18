@@ -66,6 +66,16 @@ const Navbar = () => {
               About
             </NavLink>
           </NavItem>
+          <NavItem className="d-flex flex-row align-items-center">
+            <NavLink
+              to={routeNames.Contact}
+              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3"
+              data-testid="contact"
+              activeClassName="active"
+            >
+              Contact
+            </NavLink>
+          </NavItem>
           {!loggedIn && (
             <NavLink
               to={routeNames.unlock}
