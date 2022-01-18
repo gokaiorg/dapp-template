@@ -9,7 +9,7 @@ const Roadmap = () => {
           <h2 className="text-black font-weight-bold my-5 text-4xl">
             Q4 - 2020
           </h2>
-          <p className="text-xl">Discorver Elrond Netowork</p>
+          <p className="text-xl">Discorver Elrond Network</p>
           <h2 className="text-black font-weight-bold my-5 text-4xl">
             Q1 - 2021
           </h2>
