@@ -14,7 +14,7 @@ const Mghosts = () => {
             Ghosts will soon be minted on the Elrond Network.
           </p>
           <a
-            href="/maiar-ghosts#maiar-ghosts"
+            href="/maiar-ghosts"
             className="btn btn-revert btn-lg ml-auto d-inline-flex"
           >
             Im not afraid

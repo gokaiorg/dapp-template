@@ -20,15 +20,14 @@ Override Bootstrap variables only above.
 
 /* Fonts
 -------------------------------------------------- */
-@font-face {
-  font-family: "MGhostFont";
-  src: local("MGhostFont"), url(../../assets/fonts/Againts.woff) format("woff");
-}
-
-
+// @font-face {
+//   font-family: "Prompt";
+//   src: local("MGhostFont"), url(../../assets/fonts/Againts.woff) format("woff");
+// }
 .font-mghosts {
-  font-family: "MGhostFont";
+  font-family: "Prompt";
 }
+
 /* Base
 -------------------------------------------------- */
 html {
@@ -135,6 +134,25 @@ p {
       background: $white !important;
     }
   }
+
+  &-NavbarGhosts {
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    &:hover, &:focus, &.active {
+      background: transparent !important;
+      border: none !important;
+      color: white !important;
+    }
+  }
+
+  &-mr-ghosts {
+    color: #051c41;
+    &:hover, &:focus, &.active {
+      background: white !important;
+      color: #051c41 !important;
+    }
+  }
 }
 
 .text-xl {
@@ -181,6 +199,10 @@ table {
   th {
     color: $primary !important;
   }
+}
+
+.bottom-0 {
+  bottom: 0;
 }
 
 /* Navbar
@@ -237,6 +259,39 @@ table {
     position: absolute;
     z-index: 0;
   }
+}
+
+/* Ghosts
+-------------------------------------------------- */
+#maiar-ghosts {
+  min-height: 100vh;
+  background: url('../img/bg-mr-ghost-app.png') repeat-x fixed;
+  background-size: cover;
+
+  h1 {
+    line-height: 4rem;
+  }
+}
+
+.bg-ghosts {
+  background: #000;
+}
+
+.mghost-input {
+  border-radius: 50px;
+  outline: none;
+  padding: 0 3rem;
+  max-width: 100px;
+}
+
+iframe {
+  border: 0;
+  max-width: 100%;
+}
+
+.mrghost-animated {
+  height: 500px;
+  width: 500px;
 }
 
 /* Unlock page
@@ -494,28 +549,4 @@ footer {
       color: $primary !important;
     }
   }
-}
-
-/* Ghosts
--------------------------------------------------- */
-#maiar-ghosts {
-  border-top: 1px solid #000;
-  min-height: 100vh;
-  letter-spacing: 3px;
-}
-
-.bg-ghosts {
-  background: #000;
-}
-
-.mghost-input {
-  border-radius: 50px;
-  outline: none;
-  padding: 0 3rem;
-  max-width: 100px;
-}
-
-iframe {
-  border: 0;
-  max-width: 100%;
 }

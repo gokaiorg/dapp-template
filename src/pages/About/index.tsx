@@ -1,5 +1,4 @@
 import * as React from "react";
-import MGhostImg from "../../assets/img/MGhost-to-mint.png";
 
 const About = () => (
   <div className="border-top-main">

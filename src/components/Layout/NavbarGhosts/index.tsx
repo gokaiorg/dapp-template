@@ -2,11 +2,10 @@ import React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import { Navbar as BsNavbar, NavItem, Nav } from "react-bootstrap";
 import { Link, NavLink, useHistory } from "react-router-dom";
-import { dAppName } from "config";
 import { routeNames } from "../../../routes";
 import TopInfo from "../Navbar/TopInfo";
 
-const Navbar = () => {
+const NavbarGhosts = () => {
   const { loggedIn } = Dapp.useContext();
   const dappLogout = Dapp.useLogout();
   const history = useHistory();
@@ -18,58 +17,30 @@ const Navbar = () => {
   };
 
   return (
-    <BsNavbar bg="white" expand="lg" collapseOnSelect>
+    <BsNavbar bg="black" expand="lg" collapseOnSelect>
       <Link
-        className="d-flex align-items-center navbar-brand mr-0"
-        to={loggedIn ? "/" : "/"}
+        className="d-flex align-items-center NavbarGhosts-brand mr-0"
+        to={loggedIn ? "/maiar-ghosts" : "/maiar-ghosts"}
       >
-        <svg
-          className="dapp-logo"
-          fill="currentColor"
-          viewBox="0 0 255 396"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g stroke="none" strokeWidth="1" fill="none" strokeLinecap="round">
-            <path
-              d="M241.052502,12.7714358 C158.66596,21.4332536 12.8718865,73.0257773 12.8718865,241.823057 C12.8718865,370.87957 113.034972,382.544298 151.930611,382.544298 C190.501773,382.544298 242.052502,357.391985 242.052502,298.901663 C242.052502,271.873876 226.549054,235.605894 186.862107,235.605894 C162.5632,235.605894 150.930611,254.196925 150.930611,269.876476 C150.930611,285.556028 161.459592,293.403498 175.593211,293.403498 C188.99272,293.403498 187.826525,275.063609 180.73357,275.063609"
-              stroke="#000"
-              strokeWidth="25"
-            />
-          </g>
-        </svg>
-        <span className="dapp-name text-black font-weight-bold">
-          {dAppName}
-        </span>
-        <span className="ml-3">Devnet</span>
+        <span className="h3 text-white font-weight-bold">Mr Ghosts</span>
       </Link>
       <BsNavbar.Toggle aria-controls="main-nav" className="border-0" />
       <BsNavbar.Collapse id="main-nav" className="row">
         <Nav className="ml-auto p-3 p-lg-0">
           <NavItem className="d-flex flex-row align-items-center">
             <NavLink
-              to={routeNames.Roadmap}
-              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3"
-              data-testid="roadmap"
-              exact
+              to={routeNames.Cemetery}
+              className="btn btn-link btn-NavbarGhosts btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
+              data-testid="cemetery"
               activeClassName="active"
             >
-              Roadmap
-            </NavLink>
-          </NavItem>
-          <NavItem className="d-flex flex-row align-items-center">
-            <NavLink
-              to={routeNames.About}
-              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3"
-              data-testid="about"
-              activeClassName="active"
-            >
-              About
+              My Cemetery
             </NavLink>
           </NavItem>
           {!loggedIn && (
             <NavLink
               to={routeNames.unlock}
-              className="btn btn-link btn-Navbar btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
+              className="btn btn-link btn-NavbarGhosts btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
               data-testid="loginBtn"
               activeClassName="active"
             >
@@ -91,7 +62,7 @@ const Navbar = () => {
               <a
                 href="/"
                 onClick={logOut}
-                className="btn btn-revert text-black"
+                className="btn btn-NavbarGhosts text-white"
                 title="Logout"
               >
                 <svg
@@ -117,4 +88,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarGhosts;
