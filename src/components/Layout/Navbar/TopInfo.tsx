@@ -1,12 +1,12 @@
 import * as React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
-import { ReactComponent as ElrondLogo } from "./../../../assets/img/elrond-symbol.svg";
+// import { ReactComponent as ElrondLogo } from "./../../../assets/img/elrond-symbol.svg";
 // import Denominate from "./../../../components/Denominate";
 
 const TopInfo = () => {
   const {
     address,
-    account: { balance },
+    // account: { balance },
   } = Dapp.useContext();
 
   return (

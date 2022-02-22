@@ -1,6 +1,8 @@
 import React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import routes, { routeNames } from "routes";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const { loggedIn } = Dapp.useContext();
@@ -15,11 +17,13 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div className="d-flex flex-column flex-fill wrapper overflow-hidden">
-      <main className="d-flex flex-column flex-grow-1">
+      <Navbar />
+      <main role="main" className="d-flex flex-column flex-grow-1">
         <Dapp.Authenticate routes={routes} unlockRoute={routeNames.unlock}>
           {children}
         </Dapp.Authenticate>
       </main>
+      <Footer />
     </div>
   );
 };

@@ -1,24 +1,17 @@
 import * as React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import { motion } from "framer-motion";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import MGhostImg from "../../assets/img/MGhost-to-mint.png";
 import { routeNames } from "../../routes";
 
-const MGhostMint = () => {
+const Mint = () => {
   const { loggedIn } = Dapp.useContext();
-  const dappLogout = Dapp.useLogout();
-  const history = useHistory();
 
-  const logOut = (e: React.MouseEvent) => {
-    e.preventDefault();
-    dappLogout({ callbackUrl: `${window.location.origin}/` });
-    history.push("/");
-  };
   return (
     <div
       className="d-flex flex-column flex-md-row text-white text-xl w-100"
-      data-testid="MGhostMint"
+      data-testid="Mint"
     >
       <motion.div
         className="mrghost-animated col-md-6"
@@ -38,7 +31,8 @@ const MGhostMint = () => {
         <h1 className="font-weight-bold mb-3">
           Collection of 8658 unique Mr Ghosts NFT on the Elrond blockchain
         </h1>
-        <p className="mb-5">Drop 1 - 213 Left</p>
+        <p className="mb-5">Drop 1 - 0.0666 EGLD</p>
+        <p className="mb-5">213/666 Left</p>
         {!loggedIn && (
           <motion.div
             className="position-absolute bottom-0 mb-5"
@@ -81,4 +75,4 @@ const MGhostMint = () => {
   );
 };
 
-export default MGhostMint;
+export default Mint;

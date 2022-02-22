@@ -18,9 +18,9 @@ const Navbar = () => {
   };
 
   return (
-    <BsNavbar bg="white" expand="lg" collapseOnSelect>
+    <BsNavbar bg="transparent" expand="lg" collapseOnSelect>
       <Link
-        className="d-flex align-items-center navbar-brand mr-0"
+        className="d-flex align-items-center navbar-brand mr-0 text-white font-weight-bold"
         to={loggedIn ? "/" : "/"}
       >
         <svg
@@ -32,14 +32,12 @@ const Navbar = () => {
           <g stroke="none" strokeWidth="1" fill="none" strokeLinecap="round">
             <path
               d="M241.052502,12.7714358 C158.66596,21.4332536 12.8718865,73.0257773 12.8718865,241.823057 C12.8718865,370.87957 113.034972,382.544298 151.930611,382.544298 C190.501773,382.544298 242.052502,357.391985 242.052502,298.901663 C242.052502,271.873876 226.549054,235.605894 186.862107,235.605894 C162.5632,235.605894 150.930611,254.196925 150.930611,269.876476 C150.930611,285.556028 161.459592,293.403498 175.593211,293.403498 C188.99272,293.403498 187.826525,275.063609 180.73357,275.063609"
-              stroke="#000"
+              stroke="#fff"
               strokeWidth="25"
             />
           </g>
         </svg>
-        <span className="dapp-name text-black font-weight-bold">
-          {dAppName}
-        </span>
+        <span className="dapp-name">{dAppName}</span>
         <span className="ml-3">Devnet</span>
       </Link>
       <BsNavbar.Toggle aria-controls="main-nav" className="border-0" />
@@ -47,23 +45,12 @@ const Navbar = () => {
         <Nav className="ml-auto p-3 p-lg-0">
           <NavItem className="d-flex flex-row align-items-center">
             <NavLink
-              to={routeNames.Roadmap}
-              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3"
-              data-testid="roadmap"
-              exact
-              activeClassName="active"
-            >
-              Roadmap
-            </NavLink>
-          </NavItem>
-          <NavItem className="d-flex flex-row align-items-center">
-            <NavLink
-              to={routeNames.About}
+              to={routeNames.MrGhosts}
               className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3"
               data-testid="about"
               activeClassName="active"
             >
-              About
+              Mr Ghosts
             </NavLink>
           </NavItem>
           {!loggedIn && (

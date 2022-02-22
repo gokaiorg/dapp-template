@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Cemetery from "./pages/Cemetery";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
-import MaiarGhosts from "./pages/MGhosts";
+import MrGhosts from "./pages/MrGhosts";
 import Roadmap from "./pages/Roadmap";
 import Transaction from "./pages/Transaction";
 
@@ -16,7 +16,7 @@ export const routeNames = {
   About: "/about",
   Cemetery: "/cemetery",
   Roadmap: "/roadmap",
-  MaiarGhosts: "/maiar-ghosts",
+  MrGhosts: "/mr-ghosts",
   home: "/",
   dashboard: "/dashboard",
   transaction: "/transaction",
@@ -42,9 +42,9 @@ const routes: RouteType[] = [
     component: Cemetery,
   },
   {
-    path: "/maiar-ghosts",
-    title: "MaiarGhosts",
-    component: MaiarGhosts,
+    path: "/mr-ghosts",
+    title: "MrGhosts",
+    component: MrGhosts,
   },
   {
     path: "/",
