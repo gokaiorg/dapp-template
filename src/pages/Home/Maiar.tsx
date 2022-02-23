@@ -1,8 +1,9 @@
 import * as React from "react";
+import { motion } from "framer-motion";
 
 const Mghosts = () => {
   return (
-    <div className="install-maiar container-fluid bg-white p-0">
+    <div className="install-maiar container-fluid p-0">
       <div className="container d-flex flex-column align-items-center my-5 text-center p-0">
         <div className="col mb-5">
           <svg
@@ -58,17 +59,20 @@ const Mghosts = () => {
             Install Maiar Wallet
           </h1>
           <p className="text-xl p-0 mb-5">
-            To access the Elrond Network, we recommend that you install Maiar
-            Wallet on your phone.
+            To access the Elrond Network and buy NFTs, we recommend that you
+            install Maiar Wallet on your phone.
           </p>
         </div>
         <div className="col">
-          <a
-            href="https://get.maiar.com/referral/7nvae7kpo1"
-            className="btn btn-revert btn-lg ml-auto d-inline-flex"
-          >
-            Get Maiar
-          </a>
+          <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
+            <a
+              href="https://get.maiar.com/referral/7nvae7kpo1"
+              className="btn btn-link btn-lg mx-auto d-inline-flex"
+              data-testid="getmaiar"
+            >
+              Get Maiar
+            </a>
+          </motion.div>
         </div>
       </div>
     </div>

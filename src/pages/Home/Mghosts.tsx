@@ -1,27 +1,46 @@
 import * as React from "react";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import MGhostImg from "../../assets/img/MGhost-to-mint.png";
+import { routeNames } from "../../routes";
 
 const Mghosts = () => {
   return (
-    <div className="mghosts container-fluid bg-light py-5">
-      <div className="container d-flex flex-column-reverse flex-md-row align-items-center p-0">
+    <div className="mghosts container-fluid bg-light py-5 text-white">
+      <div className="container d-flex flex-column align-items-center text-center p-0">
         <div className="text-black my-5 col-md-9">
-          <h1 className="mb-3 text-4xl font-weight-bold" data-testid="title">
-            Mr Ghosts
-          </h1>
-          <p className="mb-5 text-xl p-0">
-            I hope you are not too scared of ghosts? Several thousand of Mr
-            Ghosts will soon be minted on the Elrond Network.
+          <h2 className="mb-3 font-weight-bold h1" data-testid="title">
+            Mr Ghosts Drop 1 coming soon
+          </h2>
+          <p className="h2 p-0">
+            Buy an NFT and become a member of Gokai Labs.
           </p>
-          <a
-            href="/mr-ghosts"
-            className="btn btn-revert btn-lg ml-auto d-inline-flex"
-          >
-            Im not afraid
-          </a>
+          <p className="mb-5 h2 p-0">Earn rewards and vote! 1 NFT = 1 vote</p>
+          <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
+            <Link
+              to={routeNames.MrGhosts}
+              className="btn btn-link btn-lg mx-auto d-inline-flex"
+              data-testid="about"
+            >
+              Buy NFT
+            </Link>
+          </motion.div>
         </div>
-        <div className="col-md-3 my-3">
-          <img className="block w-100 p-0 m-0" src={MGhostImg} alt="Mghosts" />
+        <div className="flex w-100 my-3">
+          <motion.div
+            className="mrghost-animated w-100"
+            animate={{
+              x: [-1000, 1000, -1000],
+            }}
+            transition={{
+              duration: 20,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatDelay: 0,
+            }}
+          >
+            <img className="block w-25" src={MGhostImg} alt="Mghosts" />
+          </motion.div>
         </div>
       </div>
     </div>

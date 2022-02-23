@@ -46,7 +46,7 @@ const Navbar = () => {
           <NavItem className="d-flex flex-row align-items-center">
             <NavLink
               to={routeNames.MrGhosts}
-              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3"
+              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
               data-testid="about"
               activeClassName="active"
             >
@@ -56,7 +56,7 @@ const Navbar = () => {
           {!loggedIn && (
             <NavLink
               to={routeNames.unlock}
-              className="btn btn-link btn-Navbar btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
+              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
               data-testid="loginBtn"
               activeClassName="active"
             >
