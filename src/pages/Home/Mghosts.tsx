@@ -1,7 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import MGhostImg from "../../assets/img/MGhost-to-mint.png";
+import MGhostImg from "../../assets/img/mr-ghost-winning.png";
 import { routeNames } from "../../routes";
 
 const Mghosts = () => {

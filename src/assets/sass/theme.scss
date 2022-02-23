@@ -214,6 +214,7 @@ table {
   position: relative;
   z-index: 1;
   height: 90px;
+  background: black;
 
   .dapp-logo {
     margin-right: 0.8rem;
@@ -318,6 +319,12 @@ iframe {
 .mrghost-animated {
   height: 500px;
   width: 500px;
+}
+
+/* Roadmap
+-------------------------------------------------- */
+.roadmap {
+  margin-top: -8rem;
 }
 
 /* Unlock page

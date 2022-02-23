@@ -10,7 +10,7 @@ const Mint = () => {
 
   return (
     <div
-      className="d-flex flex-column flex-md-row text-white text-xl w-100"
+      className="d-flex flex-column flex-md-row text-white text-xl w-100 py-5 my-5"
       data-testid="Mint"
     >
       <motion.div
@@ -31,7 +31,7 @@ const Mint = () => {
         <h1 className="font-weight-bold mb-3">
           Collection of 8658 unique Mr Ghosts NFT on the Elrond blockchain
         </h1>
-        <p className="mb-5">Drop 1 - 0.0666 EGLD</p>
+        <p className="mb-1">Drop 1 - 0.0666 EGLD</p>
         <p className="mb-5">213/666 Left</p>
         {!loggedIn && (
           <motion.div
@@ -59,7 +59,7 @@ const Mint = () => {
         )}
         {loggedIn && (
           <div className="d-flex flex-row align-items-center">
-            <p className="font-weight-bold mr-5">1 Mr Ghost = 0.0666 EGLD</p>
+            <p className="font-weight-bold mr-5">Number of NFTs to mint?</p>
             <input
               type="text"
               className="p-2 border-0 text-4xl mr-3 mghost-input text-center"

@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <BsNavbar bg="transparent" expand="lg" collapseOnSelect>
+    <BsNavbar bg="black" expand="lg" collapseOnSelect>
       <Link
         className="d-flex align-items-center navbar-brand mr-0 text-white font-weight-bold"
         to={loggedIn ? "/" : "/"}
