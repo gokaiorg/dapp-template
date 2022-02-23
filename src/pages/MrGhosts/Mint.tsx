@@ -27,7 +27,7 @@ const Mint = () => {
       >
         <img className="block w-100" src={MGhostImg} alt="Mghosts" />
       </motion.div>
-      <div className="mint-info d-flex flex-column text-center justify-content-center col-md-6 position-relative">
+      <div className="mint-info d-flex flex-column text-center text-md-left justify-content-center col-md-6 position-relative">
         <h1 className="font-weight-bold mb-3">
           Collection of 8658 unique Mr Ghosts NFT on the Elrond blockchain
         </h1>
