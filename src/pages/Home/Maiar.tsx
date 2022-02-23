@@ -67,7 +67,7 @@ const Mghosts = () => {
           <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <a
               href="https://get.maiar.com/referral/7nvae7kpo1"
-              className="btn btn-link btn-lg mx-auto d-inline-flex"
+              className="btn btn-link btn-lg btn-dark-blue font-weight-bold mx-auto d-inline-flex"
               data-testid="getmaiar"
             >
               Get Maiar

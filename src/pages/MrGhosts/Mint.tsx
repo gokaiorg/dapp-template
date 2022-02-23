@@ -10,7 +10,7 @@ const Mint = () => {
 
   return (
     <div
-      className="d-flex flex-column flex-md-row text-white text-xl w-100 py-5 my-5"
+      className="mr-ghosts-mint d-flex flex-column flex-md-row text-white text-xl w-100 pt-5 mt-5 pb-0 pb-md-5 mb-0 mb-md-5"
       data-testid="Mint"
     >
       <motion.div
@@ -27,7 +27,7 @@ const Mint = () => {
       >
         <img className="block w-100" src={MGhostImg} alt="Mghosts" />
       </motion.div>
-      <div className="d-flex flex-column justify-content-center col-md-6 position-relative">
+      <div className="mint-info d-flex flex-column text-center justify-content-center col-md-6 position-relative">
         <h1 className="font-weight-bold mb-3">
           Collection of 8658 unique Mr Ghosts NFT on the Elrond blockchain
         </h1>
@@ -35,13 +35,13 @@ const Mint = () => {
         <p className="mb-5">213/666 Left</p>
         {!loggedIn && (
           <motion.div
-            className="position-absolute bottom-0 mb-5"
+            className="position-absolute bottom-0 mint-login-button mb-5"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }}
           >
             <Link
               to={routeNames.unlock}
-              className="btn btn-mr-ghosts btn-lg mr-auto d-inline-flex"
+              className="btn btn-lg mr-auto d-inline-flex"
               data-testid="loginBtn"
             >
               <svg
