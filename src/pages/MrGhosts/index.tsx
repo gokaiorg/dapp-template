@@ -1,4 +1,5 @@
 import * as React from "react";
+import Maiar from "../Home/Maiar";
 import MGhostMint from "./Mint";
 import Story from "./Story";
 
@@ -12,6 +13,7 @@ const MrGhosts = () => {
         <MGhostMint />
       </div>
       <Story />
+      <Maiar />
     </div>
   );
 };

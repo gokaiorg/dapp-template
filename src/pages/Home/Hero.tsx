@@ -12,10 +12,10 @@ const Hero = () => {
             scale: [1, 2, 2, 1, 1],
             opacity: [0, 0.2],
           }}
-          className="col-4 m-auto position-absolute inset-0 h-75"
+          className="col-md-4 m-auto position-absolute inset-0 h-75"
         >
           <svg
-            className="dapp-logo h-100"
+            className="dapp-logo"
             fill="currentColor"
             viewBox="0 0 255 396"
             xmlns="http://www.w3.org/2000/svg"
@@ -39,9 +39,9 @@ const Hero = () => {
           <div className="position-absolute bottom-0 w-100">
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
               <Link
-                to={routeNames.About}
+                to={routeNames.MrGhosts}
                 className="btn btn-link btn-lg mx-auto d-inline-flex"
-                data-testid="about"
+                data-testid="mrghosts"
               >
                 Discover
               </Link>

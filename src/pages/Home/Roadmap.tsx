@@ -20,13 +20,12 @@ const Roadmap = () => {
         >
           <img className="block w-100 mb-5" src={MGhostImg} alt="Mghosts" />
         </motion.div>
-        <h2 className="h1 font-weight-bold mb-5">Roadmap</h2>
-        <div className="d-flex flex-column flex-md-row w-75">
+        <h2 className="h1 font-weight-bold my-5">Roadmap</h2>
+        <div className="d-flex flex-column flex-md-row w-75 my-5">
           <div className="col-4">
             <h3 className="font-weight-bold">Q1 2022</h3>
             <p className="h3">Collection design</p>
-            <p className="h3">Giveaway</p>
-            <p className="h3">Drop 1</p>
+            <p className="h3">Giveaway & Drop 1</p>
           </div>
           <div className="col-4">
             <h3 className="font-weight-bold">Q2 2022</h3>

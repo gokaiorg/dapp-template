@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const Mghosts = () => {
   return (
-    <div className="install-maiar container-fluid p-0">
-      <div className="container d-flex flex-column align-items-center my-5 text-center p-0">
-        <div className="col mb-5">
+    <div className="install-maiar container-fluid p-0 flex mt-5">
+      <div className="box-blue d-flex flex-column align-items-center my-5 text-center p-5 pt-0 col-md-7 mx-auto">
+        <div className="d-block p-3 mb-2 bg-white rounded-circle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50px"
@@ -54,16 +54,16 @@ const Mghosts = () => {
             </g>
           </svg>
         </div>
-        <div className="text-black col-lg-8">
-          <h1 className="mb-3 text-2xl font-weight-bold" data-testid="title">
-            Install Maiar Wallet
+        <div className="text-white col-md-8">
+          <h1 className="mb-2 text-2xl font-weight-bold" data-testid="title">
+            How to buy?
           </h1>
           <p className="text-xl p-0 mb-5">
-            To access the Elrond Network and buy NFTs, we recommend that you
-            install Maiar Wallet on your phone.
+            To buy NFTs install Maiar Wallet on your phone and connect your
+            wallet to login.
           </p>
         </div>
-        <div className="col">
+        <div className="position-absolute box-blue-button">
           <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <a
               href="https://get.maiar.com/referral/7nvae7kpo1"

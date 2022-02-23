@@ -283,7 +283,6 @@ table {
 /* Ghosts
 -------------------------------------------------- */
 #mr-ghosts {
-  min-height: 100vh;
   background: url('../img/bg-mr-ghost-app.png') repeat-x;
   background-size: cover;
   background-position: bottom;
@@ -325,6 +324,14 @@ iframe {
 -------------------------------------------------- */
 .roadmap {
   margin-top: -8rem;
+}
+
+.box-blue {
+  background: #0381E6;
+  border-radius: 1rem;
+  &-button {
+    bottom: -2rem;
+  }
 }
 
 /* Unlock page
