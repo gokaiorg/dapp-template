@@ -9,7 +9,7 @@ const MrGhosts = () => {
       id="mr-ghosts"
       className="maiar-ghosts border-top-main bg-ghosts font-mrghosts"
     >
-      <div className="container py-4">
+      <div className="container py-4 bg-black">
         <MGhostMint />
       </div>
       <Story />

@@ -41,9 +41,8 @@ body {
 }
 
 main[role="main"] {
-  margin-top: -90px;
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
 
 p {
@@ -261,23 +260,11 @@ table {
 /* Hero
 -------------------------------------------------- */
 .hero {
-  // background-image: url("./../../assets/img/banner-hero.jpg");
   background: url("../img/bg-mr-ghost-app.png") no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: top left;
   position: relative;
-  height: 100vh;
-
-  // &::before {
-  //   content: "";
-  //   width: 100%;
-  //   height: 100%;
-  //   background: black;
-  //   left: 0;
-  //   opacity: 0.5;
-  //   position: absolute;
-  //   z-index: 0;
-  // }
+  height: calc(100vh - 90px);
 
   &-title {
     height: fit-content;
@@ -290,7 +277,7 @@ table {
 #mr-ghosts {
   background: url("../img/bg-mr-ghost-app.png") repeat-x;
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom right;
 
   h1 {
     line-height: 4rem;
@@ -331,6 +318,12 @@ iframe {
       width: 30%;
     }
   }
+}
+
+.mint {
+  // background: url("../img/bg-mr-ghost-app.png") no-repeat;
+  // background-size: cover;
+  // background-position: top left;
 }
 
 .mint-info {

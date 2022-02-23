@@ -12,7 +12,7 @@ const Hero = () => {
             scale: [1, 2, 2, 1, 1],
             opacity: [0, 0.2],
           }}
-          className="col-md-4 m-auto position-absolute inset-0 h-75"
+          className="col-md-5 m-auto position-absolute inset-0"
         >
           <svg
             className="dapp-logo"
