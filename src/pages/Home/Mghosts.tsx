@@ -39,7 +39,7 @@ const Mghosts = () => {
               repeatDelay: 0,
             }}
           >
-            <img className="block w-25" src={MGhostImg} alt="Mghosts" />
+            <img className="block" src={MGhostImg} alt="Mghosts" />
           </motion.div>
         </div>
       </div>
