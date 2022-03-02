@@ -275,24 +275,20 @@ table {
 /* Ghosts
 -------------------------------------------------- */
 #mr-ghosts {
-  background: url("../img/bg-mr-ghost-app.png") repeat-x;
+  background: url("../img/bg-mr-ghost-app.png") no-repeat;
   background-size: cover;
-  background-position: bottom right;
+  background-position: top;
 
   h1 {
     line-height: 4rem;
   }
 }
 
-.mghosts {
+.mrghosts, .mr-ghosts-story {
   background: url("../img/bg-mr-ghost-app.png") no-repeat;
   background-size: cover;
   background-position: bottom;
   min-height: 100vh;
-}
-
-.bg-ghosts {
-  background: #000;
 }
 
 .mghost-input {
@@ -318,12 +314,6 @@ iframe {
       width: 30%;
     }
   }
-}
-
-.mint {
-  // background: url("../img/bg-mr-ghost-app.png") no-repeat;
-  // background-size: cover;
-  // background-position: top left;
 }
 
 .mint-info {
@@ -608,4 +598,72 @@ footer {
       color: $primary !important;
     }
   }
+}
+
+
+/* Faq
+-------------------------------------------------- */
+.accordion {
+    border-radius: 2px;
+    width: 100%;
+}
+
+.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.accordion__button:hover {
+    background-color: #131313;
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    transform: rotate(45deg);
+}
+
+[hidden] {
+    display: none;
+}
+
+.accordion__panel {
+    padding: 2rem;
+    animation: fadein 0.35s ease-in;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

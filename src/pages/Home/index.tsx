@@ -1,8 +1,9 @@
 import * as React from "react";
+import Buy from "../../components/Layout/Buy";
+import Faq from "../../components/Layout/Faq";
+import Roadmap from "../../components/Layout/Roadmap";
 import Hero from "./Hero";
-import Maiar from "./Maiar";
-import Mghosts from "./Mghosts";
-import Roadmap from "./Roadmap";
+import Mghosts from "./Mrghosts";
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
       <Hero />
       <Mghosts />
       <Roadmap />
-      <Maiar />
+      <Buy />
+      <Faq />
     </div>
   );
 };

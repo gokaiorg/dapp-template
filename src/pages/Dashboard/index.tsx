@@ -6,7 +6,7 @@ import PageState from "components/PageState";
 import { contractAddress } from "config";
 import { useContext, useDispatch } from "context";
 import Hero from "../Home/Hero";
-import Mghosts from "../Home/Mghosts";
+import Mghosts from "../Home/Mrghosts";
 import { getTransactions } from "./helpers/asyncRequests";
 
 const Dashboard = () => {

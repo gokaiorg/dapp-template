@@ -10,7 +10,7 @@ const Mint = () => {
 
   return (
     <div
-      className=" bg-black mint d-flex flex-column flex-md-row text-white text-xl w-100 pt-5 mt-5 pb-0 pb-md-5 mb-0 mb-md-5"
+      className="mr-ghosts-mint bg-black mint d-flex flex-column flex-md-row text-white text-xl w-100 pt-5 mt-5 pb-0 pb-md-5 mb-0 mb-md-5"
       data-testid="Mint"
     >
       <motion.div
