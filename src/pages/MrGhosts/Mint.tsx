@@ -2,7 +2,7 @@ import * as React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import MGhostImg from "../../assets/img/MGhost-to-mint.png";
+import MGhostImg from "../../assets/img/mr-ghosts-mint.gif";
 import { routeNames } from "../../routes";
 
 const Mint = () => {
