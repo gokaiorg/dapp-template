@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const Buy = () => {
   return (
-    <div className="buy container-fluid p-0 flex mt-5">
-      <div className="box-blue d-flex flex-column align-items-center my-5 text-center p-5 pt-0 col-md-7 mx-auto">
+    <div className="buy container-fluid flex mt-5">
+      <div className="box-blue d-flex flex-column align-items-center my-5 text-center p-5 pt-0 col-md-9 col-lg-7 mx-auto">
         <div className="d-block p-3 mb-2 bg-white rounded-circle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ const Buy = () => {
             </g>
           </svg>
         </div>
-        <div className="text-white col-md-8">
+        <div className="text-white col-md-8 p-0">
           <h1 className="mb-2 text-2xl font-weight-bold" data-testid="title">
             How to buy?
           </h1>

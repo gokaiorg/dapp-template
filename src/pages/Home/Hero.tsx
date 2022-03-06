@@ -5,7 +5,7 @@ import { routeNames } from "../../routes";
 
 const Hero = () => {
   return (
-    <div className="hero container-fluid">
+    <div className="hero bg-mr-ghost-top container-fluid">
       <div className="container d-flex flex-column justify-center align-items-center px-0 py-5 my-5 h-100 position-relative">
         <motion.div
           animate={{

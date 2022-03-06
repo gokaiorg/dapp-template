@@ -162,6 +162,26 @@ p {
   }
 }
 
+/* Login container
+-------------------------------------------------- */
+.login-container {
+  .card {
+    margin: 0 1rem;
+
+    button,
+    a {
+      color: $white !important;
+      background: #0381e6 !important;
+      &:hover {
+        color: $white !important;
+      }
+      svg {
+        display:none;
+      }
+    }
+  }
+}
+
 .text-xl {
   font-size: 1.5rem !important;
 }
@@ -260,9 +280,6 @@ table {
 /* Hero
 -------------------------------------------------- */
 .hero {
-  background: url("../img/bg-mr-ghost-app.png") no-repeat;
-  background-size: cover;
-  background-position: top left;
   position: relative;
   height: calc(100vh - 90px);
 
@@ -275,17 +292,23 @@ table {
 /* Ghosts
 -------------------------------------------------- */
 #mr-ghosts {
-  background: url("../img/bg-mr-ghost-app.png") no-repeat;
+  background: #000 url("../img/bg-mr-ghost-top.png") no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: top left;
 
   h1 {
     line-height: 4rem;
   }
 }
 
-.mrghosts, .mr-ghosts-story {
-  background: url("../img/bg-mr-ghost-app.png") no-repeat;
+.bg-mr-ghost-top {
+  background: #000 url("../img/bg-mr-ghost-top.png") no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+.mrghosts, .mr-ghosts-story, .bg-mr-ghost-bottom {
+  background: #000 url("../img/bg-mr-ghost-bottom.png") no-repeat;
   background-size: cover;
   background-position: bottom;
   min-height: 100vh;
@@ -397,27 +420,8 @@ div[data-testid="unlockPage"] {
 
         .btn {
           margin-bottom: 1.5rem !important;
-          // color: #051c41;
-          // &:hover, &:focus, &.active {
-          //   background: white !important;
-          //   color: #051c41 !important;
-          // }
         }
       }
-    }
-  }
-}
-
-/* Login container
--------------------------------------------------- */
-.login-container {
-  .card {
-    margin: 0 1rem;
-
-    button,
-    a {
-      border-color: #16181f !important;
-      color: #16181f !important;
     }
   }
 }

@@ -6,7 +6,7 @@ import { routeNames } from "../../routes";
 
 const Mrghosts = () => {
   return (
-    <div className="mrghosts container-fluid bg-light py-5 text-white">
+    <div className="mrghosts container-fluid py-5 text-white">
       <div className="container d-flex flex-column align-items-center text-center p-0">
         <div className="text-black my-5 col-md-9">
           <h2 className="mb-3 font-weight-bold h1" data-testid="title">

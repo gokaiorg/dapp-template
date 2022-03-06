@@ -4,12 +4,10 @@ import Story from "./Story";
 
 const MrGhosts = () => {
   return (
-    <div id="mr-ghosts" className="font-mrghosts">
-      <div className="container py-4">
-        <MGhostMint />
-      </div>
+    <>
+      <MGhostMint />
       <Story />
-    </div>
+    </>
   );
 };
 

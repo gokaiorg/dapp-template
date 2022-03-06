@@ -9,7 +9,7 @@ import {
 
 const Faq = () => {
   return (
-    <div className="faq container d-flex flex-column align-items-center my-5 py-5 p-0 col-md-7">
+    <div className="faq container d-flex flex-column align-items-center my-5 py-5 col-md-9 col-lg-7">
       <h2 className="h1 font-weight-bold my-5">FAQ</h2>
       <Accordion>
         <AccordionItem className="mb-3">

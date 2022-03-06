@@ -7,13 +7,13 @@ import Mghosts from "./Mrghosts";
 
 const Home = () => {
   return (
-    <div className="d-flex flex-column container-fluid p-0">
+    <>
       <Hero />
       <Mghosts />
       <Roadmap />
       <Buy />
       <Faq />
-    </div>
+    </>
   );
 };
 
