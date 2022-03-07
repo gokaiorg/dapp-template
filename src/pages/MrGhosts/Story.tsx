@@ -1,4 +1,6 @@
 import * as React from "react";
+import { motion } from "framer-motion";
+import MrGhostDriver from "../../assets/img/mr-ghost-driver.png";
 
 const Story = () => {
   return (
@@ -14,6 +16,25 @@ const Story = () => {
         Each owner will be a member of Gokai DAO.
         <br /> 1 NFT = 1 Vote
       </p>
+      <motion.div
+        className="mrghost-animated col-md-4"
+        animate={{
+          y: [-50, 50, -50],
+          x: [-1000, 2000],
+        }}
+        transition={{
+          duration: 6,
+          ease: "easeInOut",
+          repeat: Infinity,
+          repeatDelay: 0,
+        }}
+      >
+        <img
+          className="block w-100 mb-5"
+          src={MrGhostDriver}
+          alt="MrGhostDriver"
+        />
+      </motion.div>
     </div>
   );
 };
