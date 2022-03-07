@@ -14,10 +14,10 @@ const Collab = () => {
             data-testid="elrondworld"
             target="_blank"
             rel="noreferrer"
-            className="flex mx-auto"
+            className="d-flex mx-auto"
           >
             <img
-              className="flex w-50 mx-auto"
+              className="w-50 mx-auto"
               src={ElrondWorld}
               alt="Elrond World"
             />
@@ -29,13 +29,9 @@ const Collab = () => {
             data-testid="platanetwork"
             target="_blank"
             rel="noreferrer"
-            className="flex mx-auto"
+            className="d-flex mx-auto"
           >
-            <img
-              className="flex w-50 mx-auto"
-              src={Plata}
-              alt="Plata Network"
-            />
+            <img className="w-50 mx-auto" src={Plata} alt="Plata Network" />
           </a>
         </div>
         <div className="col-md-4 mb-5">
@@ -44,13 +40,9 @@ const Collab = () => {
             data-testid="indienftartwork"
             target="_blank"
             rel="noreferrer"
-            className="flex mx-auto"
+            className="d-flex mx-auto"
           >
-            <img
-              className="flex w-50 mx-auto"
-              src={Indie}
-              alt="Plata Network"
-            />
+            <img className="w-50 mx-auto" src={Indie} alt="Plata Network" />
           </a>
         </div>
       </div>
