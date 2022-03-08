@@ -4,9 +4,9 @@ import Social from "./social";
 const Footer = () => {
   return (
     <footer className="text-right p-5 mt-5 container-fluid">
-      <div className="d-flex flex-column flex-md-row w-100 align-items-center">
+      <div className="d-flex flex-column flex-md-row w-100 w-md-auto align-items-end">
         <Social />
-        <p className="ml-md-auto d-flex align-items-center text-black mb-0">
+        <p className="mx-auto mr-md-0 ml-md-auto d-flex align-items-center text-black mb-0">
           Made with
           <svg
             xmlns="http://www.w3.org/2000/svg"

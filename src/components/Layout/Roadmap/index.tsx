@@ -20,14 +20,24 @@ const Roadmap = () => {
           repeatDelay: 0,
         }}
       >
-        <img className="block w-100 mb-5" src={MrGhostMoon} alt="Mghosts" />
+        <img
+          width="250px"
+          height="250px"
+          className="block w-100 mb-5"
+          src={MrGhostMoon}
+          alt="Mr Ghost to the Moon"
+          title="Mr Ghost to the Moon"
+        />
       </motion.div>
       <div className="d-flex flex-column my-5 col-md-9 mx-auto">
         <div className="mb-5 d-flex flex-column flex-md-row align-items-center">
           <img
             className="block col-md-4 mb-5 mb-md-0"
             src={MrGhostWallet}
-            alt="Mghosts"
+            width="250px"
+            height="250px"
+            alt="Mr Ghost Wallet"
+            title="Mr Ghost Wallet"
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">60% Community treasury</h3>
@@ -41,7 +51,10 @@ const Roadmap = () => {
           <img
             className="block col-md-4 mb-5 mb-md-0"
             src={MrGhostWorking}
-            alt="Mghosts"
+            width="250px"
+            height="250px"
+            alt="Mr Ghost Working"
+            title="Mr Ghost Working"
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">
@@ -57,7 +70,10 @@ const Roadmap = () => {
           <img
             className="block col-md-4 mb-5 mb-md-0"
             src={MrGhostProtect}
-            alt="Mghosts"
+            width="250px"
+            height="250px"
+            alt="My Ghost Protect"
+            title="My Ghost Protect"
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">20% Environmental and Charity</h3>

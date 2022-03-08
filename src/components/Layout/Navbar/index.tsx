@@ -40,8 +40,8 @@ const Navbar = () => {
         <span className="dapp-name">{dAppName}</span>
         <span className="ml-3">Devnet</span>
       </Link>
-      <BsNavbar.Toggle aria-controls="main-nav" className="border-0" />
-      <BsNavbar.Collapse id="main-nav" className="row">
+      <BsNavbar.Toggle aria-controls="main-nav" className="border-0 bg-white" />
+      <BsNavbar.Collapse id="main-nav" className="row bg-black">
         <Nav className="ml-auto p-3 p-lg-0">
           <NavItem className="d-flex flex-row align-items-center">
             <NavLink

@@ -1,5 +1,5 @@
 {
-  "short_name": "EW",
+  "short_name": "GL",
   "name": "Gokai Labs",
   "icons": [
     {
@@ -44,5 +44,5 @@
   "background_color": "#000",
   "description": "Community-driven collectible NFT DAO on Elrond Network",
   "dir": "ltr",
-  "lang": "en-US"
+  "lang": "en-EN"
 }

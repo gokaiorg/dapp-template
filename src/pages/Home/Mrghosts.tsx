@@ -1,7 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import MGhostImg from "../../assets/img/mr-ghost-winning.png";
+import MrGhostWin from "../../assets/img/mr-ghost-winning.png";
 import { routeNames } from "../../routes";
 
 const Mrghosts = () => {
@@ -10,12 +10,15 @@ const Mrghosts = () => {
       <div className="container d-flex flex-column align-items-center text-center p-0">
         <div className="text-black my-5 col-md-9">
           <h2 className="mb-3 font-weight-bold h1" data-testid="title">
-            Mr Ghosts Drop 1 coming soon
+            Mr Ghosts - Drop 1 coming soon
           </h2>
           <p className="h2 p-0">
-            Buy an NFT and become a member of Gokai Labs.
+            Buy NFTS and earn rewards directly in your Maiar application!
           </p>
-          <p className="mb-5 h2 p-0">Earn rewards and vote! 1 NFT = 1 vote</p>
+          <p className="h2 p-0">
+            Buy NFTS and become a member of Gokai Labs DAO.
+          </p>
+          <p className="mb-5 h2 p-0">1 NFT = 1 vote</p>
           <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <Link
               to={routeNames.MrGhosts}
@@ -39,7 +42,14 @@ const Mrghosts = () => {
               repeatDelay: 0,
             }}
           >
-            <img className="block" src={MGhostImg} alt="Mrghosts" />
+            <img
+              width="512px"
+              height="512px"
+              className="block"
+              src={MrGhostWin}
+              alt="Mr Ghost Win"
+              title="Mr Ghost Win"
+            />
           </motion.div>
         </div>
       </div>

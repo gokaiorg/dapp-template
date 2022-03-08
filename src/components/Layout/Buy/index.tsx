@@ -58,7 +58,7 @@ const Buy = () => {
           <h1 className="mb-2 text-2xl font-weight-bold" data-testid="title">
             How to buy?
           </h1>
-          <p className="text-xl p-0 mb-5">
+          <p className="text-xl p-0 mb-5 font-weight-bold">
             To buy NFTs install Maiar Wallet on your phone and connect your
             wallet to login.
           </p>

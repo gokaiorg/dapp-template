@@ -45,9 +45,18 @@ const Faq = () => {
           </AccordionItemHeading>
           <AccordionItemPanel>
             <p className="h4">
-              Elrond is a high-speed blockchain that aims to provide
-              scalability, efficiency and security and is able to perform 15,000
-              transactions per second at a transaction cost of $0.001.
+              <a
+                {...{
+                  target: "_blank",
+                }}
+                className="d-inline font-weight-bold"
+                href="https://elrond.com/"
+              >
+                Elrond
+              </a>{" "}
+              is a high-speed blockchain that aims to provide scalability,
+              efficiency and security and is able to perform 15,000 transactions
+              per second at a transaction cost of $0.001.
             </p>
             <p className="h4">
               EGLD is the native token of the Elrond blockchain and is used to

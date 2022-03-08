@@ -18,8 +18,11 @@ const Collab = () => {
           >
             <img
               className="w-50 mx-auto"
+              width="120px"
+              height="120px"
               src={ElrondWorld}
               alt="Elrond World"
+              title="Elrond World"
             />
           </a>
         </div>
@@ -31,7 +34,14 @@ const Collab = () => {
             rel="noreferrer"
             className="d-flex mx-auto"
           >
-            <img className="w-50 mx-auto" src={Plata} alt="Plata Network" />
+            <img
+              className="w-50 mx-auto"
+              width="120px"
+              height="120px"
+              src={Plata}
+              alt="Plata Network"
+              title="Plata Network"
+            />
           </a>
         </div>
         <div className="col-md-4 mb-5">
@@ -42,7 +52,14 @@ const Collab = () => {
             rel="noreferrer"
             className="d-flex mx-auto"
           >
-            <img className="w-50 mx-auto" src={Indie} alt="Plata Network" />
+            <img
+              width="120px"
+              height="120px"
+              className="w-50 mx-auto"
+              src={Indie}
+              alt="Indie NFT Artwork"
+              title="Indie NFT Artwork"
+            />
           </a>
         </div>
       </div>

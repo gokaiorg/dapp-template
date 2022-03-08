@@ -33,9 +33,6 @@ const Hero = () => {
           <h1 className="mb-3 text-6xl font-weight-bold" data-testid="title">
             Community-driven collectible NFT DAO on Elrond Network
           </h1>
-          <h2 className="text-2xl text-shadow mb-5">
-            Buy NFTS and earn rewards directly in your Maiar application!
-          </h2>
           <div className="position-absolute bottom-0 w-100">
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
               <Link
