@@ -17,7 +17,7 @@ const Collab = () => {
             className="d-flex mx-auto"
           >
             <img
-              className="w-50 mx-auto"
+              className="w-50 mx-auto h-auto"
               width="120px"
               height="120px"
               src={ElrondWorld}
@@ -35,7 +35,7 @@ const Collab = () => {
             className="d-flex mx-auto"
           >
             <img
-              className="w-50 mx-auto"
+              className="w-50 mx-auto h-auto"
               width="120px"
               height="120px"
               src={Plata}
@@ -55,7 +55,7 @@ const Collab = () => {
             <img
               width="120px"
               height="120px"
-              className="w-50 mx-auto"
+              className="w-50 mx-auto h-auto"
               src={Indie}
               alt="Indie NFT Artwork"
               title="Indie NFT Artwork"

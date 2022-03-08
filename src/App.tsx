@@ -1,11 +1,15 @@
 import React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
+import ReactGA from "react-ga";
 import { Route, Switch } from "react-router-dom";
 import Layout from "./components/Layout";
 import PageNotFoud from "./components/PageNotFoud";
 import * as config from "./config";
 import { ContextProvider } from "./context";
 import routes, { routeNames } from "./routes";
+
+ReactGA.initialize("UA-134167011-1");
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function App() {
   return (

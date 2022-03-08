@@ -32,7 +32,7 @@ const Roadmap = () => {
       <div className="d-flex flex-column my-5 col-md-9 mx-auto">
         <div className="mb-5 d-flex flex-column flex-md-row align-items-center">
           <img
-            className="block col-md-4 mb-5 mb-md-0"
+            className="block col-md-4 mb-5 mb-md-0 h-auto"
             src={MrGhostWallet}
             width="250px"
             height="250px"
@@ -49,7 +49,7 @@ const Roadmap = () => {
         </div>
         <div className="mb-5 d-flex flex-column flex-md-row-reverse align-items-center">
           <img
-            className="block col-md-4 mb-5 mb-md-0"
+            className="block col-md-4 mb-5 mb-md-0 h-auto"
             src={MrGhostWorking}
             width="250px"
             height="250px"
@@ -68,7 +68,7 @@ const Roadmap = () => {
         </div>
         <div className="mb-5 d-flex flex-column flex-md-row align-items-center">
           <img
-            className="block col-md-4 mb-5 mb-md-0"
+            className="block col-md-4 mb-5 mb-md-0 h-auto"
             src={MrGhostProtect}
             width="250px"
             height="250px"
