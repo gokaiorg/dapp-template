@@ -1,7 +1,7 @@
 import * as React from "react";
-import ElrondWorld from "../../../assets/img/collab-elrond-world.png";
-import Indie from "../../../assets/img/collab-indie-nft-artwork.png";
-import Plata from "../../../assets/img/collab-plata-network.png";
+import ElrondWorld from "../../../assets/img/collab-elrond-world-elrond.webp";
+import Indie from "../../../assets/img/collab-indie-nft-artwork-elrond.webp";
+import Plata from "../../../assets/img/collab-plata-network-elrond.webp";
 
 const Collab = () => {
   return (

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import MrGhostDriver from "../../assets/img/mr-ghost-driver.png";
+import MrGhostDriver from "../../assets/img/mr-ghost-driver-elrond.png";
 
 const Story = () => {
   return (
@@ -32,7 +32,8 @@ const Story = () => {
         <img
           className="block w-100 mb-5"
           src={MrGhostDriver}
-          alt="MrGhostDriver"
+          alt="Mr Ghost Driver"
+          title="Mr Ghost Driver"
         />
       </motion.div>
     </div>

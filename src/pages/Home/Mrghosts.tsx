@@ -1,7 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import MrGhostWin from "../../assets/img/mr-ghost-winning.png";
+import MrGhostWin from "../../assets/img/mr-ghost-winning-elrond.webp";
 import { routeNames } from "../../routes";
 
 const Mrghosts = () => {
@@ -47,8 +47,8 @@ const Mrghosts = () => {
               height="512px"
               className="block"
               src={MrGhostWin}
-              alt="Mr Ghost Win"
-              title="Mr Ghost Win"
+              alt="Mr Ghost Winning - Elrond"
+              title="Mr Ghost Winning - Elrond"
             />
           </motion.div>
         </div>

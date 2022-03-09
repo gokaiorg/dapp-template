@@ -1,9 +1,9 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import MrGhostProtect from "../../../assets/img/mr-ghost-protect.png";
-import MrGhostMoon from "../../../assets/img/mr-ghost-to-the-moon.png";
-import MrGhostWallet from "../../../assets/img/mr-ghost-wallet.png";
-import MrGhostWorking from "../../../assets/img/mr-ghost-working.png";
+import MrGhostProtect from "../../../assets/img/mr-ghost-protect-elrond.webp";
+import MrGhostMoon from "../../../assets/img/mr-ghost-to-the-moon-elrond.webp";
+import MrGhostWallet from "../../../assets/img/mr-ghost-wallet-elrond.webp";
+import MrGhostWorking from "../../../assets/img/mr-ghost-working-elrond.webp";
 
 const Roadmap = () => {
   return (
@@ -25,8 +25,8 @@ const Roadmap = () => {
           height="250px"
           className="block w-100 mb-5"
           src={MrGhostMoon}
-          alt="Mr Ghost to the Moon"
-          title="Mr Ghost to the Moon"
+          alt="Mr Ghost to the Moon - Elrond"
+          title="Mr Ghost to the Moon - Elrond"
         />
       </motion.div>
       <div className="d-flex flex-column my-5 col-md-9 mx-auto">
@@ -53,8 +53,8 @@ const Roadmap = () => {
             src={MrGhostWorking}
             width="250px"
             height="250px"
-            alt="Mr Ghost Working"
-            title="Mr Ghost Working"
+            alt="Mr Ghost Working - Elrond"
+            title="Mr Ghost Working - Elrond"
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">
@@ -72,8 +72,8 @@ const Roadmap = () => {
             src={MrGhostProtect}
             width="250px"
             height="250px"
-            alt="My Ghost Protect"
-            title="My Ghost Protect"
+            alt="My Ghost Protect - Elrond"
+            title="My Ghost Protect - Elrond"
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">20% Environmental and Charity</h3>
