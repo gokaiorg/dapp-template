@@ -10,15 +10,14 @@ const Mrghosts = () => {
       <div className="container d-flex flex-column align-items-center text-center p-0">
         <div className="text-black my-5 col-md-9">
           <h2 className="mb-3 font-weight-bold h1" data-testid="title">
-            Mr Ghosts - Drop 1 coming soon
+            Maiar Ghosts - Drop 1 coming soon
           </h2>
           <p className="h2 p-0">
             Buy NFTS and earn rewards directly in your Maiar application!
           </p>
-          <p className="h2 p-0">
+          <p className="h2 p-0 mb-5">
             Buy NFTS and become a member of Gokai Labs DAO.
           </p>
-          <p className="mb-5 h2 p-0">1 NFT = 1 vote</p>
           <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <Link
               to={routeNames.MrGhosts}

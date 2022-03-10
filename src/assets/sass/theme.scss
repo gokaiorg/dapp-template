@@ -15,19 +15,6 @@ Override Bootstrap variables only above.
 // Dapp-utils
 @import "./../../../node_modules/@elrondnetwork/dapp-utils/dist/dapp-utils.scss";
 
-// Fonts
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
-
-/* Fonts
--------------------------------------------------- */
-// @font-face {
-//   font-family: "Prompt";
-//   src: local("MGhostFont"), url(../../assets/fonts/Againts.woff) format("woff");
-// }
-.font-mghosts {
-  font-family: "Prompt";
-}
-
 /* Base
 -------------------------------------------------- */
 html {
@@ -36,7 +23,7 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "DM Sans", sans-serif;
   background: #dadada;
 }
 
@@ -176,7 +163,7 @@ p {
         color: $white !important;
       }
       svg {
-        display:none;
+        display: none;
       }
     }
   }
@@ -239,16 +226,17 @@ table {
   z-index: 2;
   height: 90px;
   background: black;
+  @include media-breakpoint-up(md) {
+    z-index: 0;
+  }
 
   .dapp-logo {
-    margin-right: 0.8rem;
-    width: 30px;
+    width: 25px;
   }
 
   .dapp-name {
-    line-height: 1;
-    border-left: 1px solid $gray-400;
-    padding-left: 0.8rem;
+    padding-left: 0.25rem;
+    font-family: "McLaren", sans-serif;
   }
 }
 
@@ -307,7 +295,9 @@ table {
   background-position: top left;
 }
 
-.mrghosts, .mr-ghosts-story, .bg-mr-ghost-bottom {
+.mrghosts,
+.mr-ghosts-story,
+.bg-mr-ghost-bottom {
   background: #000 url("../img/bg-mr-ghost-bottom.png") no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -605,58 +595,57 @@ footer {
   }
 }
 
-
 /* Faq
 -------------------------------------------------- */
 .accordion {
-    border-radius: 2px;
-    width: 100%;
+  border-radius: 2px;
+  width: 100%;
 }
 
 .accordion__item + .accordion__item {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .accordion__button {
-    display: flex;
-    align-items: center;
-    background-color: black;
-    color: #fff;
-    border-radius: 1rem;
-    cursor: pointer;
-    padding: 1rem;
-    width: 100%;
-    text-align: left;
-    border: none;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  border: none;
 }
 
 .accordion__button:hover {
-    background-color: #131313;
+  background-color: #131313;
 }
 
 .accordion__button:before {
-    display: inline-block;
-    content: '';
-    height: 10px;
-    width: 10px;
-    margin-right: 12px;
-    border-bottom: 2px solid currentColor;
-    border-right: 2px solid currentColor;
-    transform: rotate(-45deg);
+  display: inline-block;
+  content: "";
+  height: 10px;
+  width: 10px;
+  margin-right: 12px;
+  border-bottom: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: rotate(-45deg);
 }
 
-.accordion__button[aria-expanded='true']::before,
-.accordion__button[aria-selected='true']::before {
-    transform: rotate(45deg);
+.accordion__button[aria-expanded="true"]::before,
+.accordion__button[aria-selected="true"]::before {
+  transform: rotate(45deg);
 }
 
 [hidden] {
-    display: none;
+  display: none;
 }
 
 .accordion__panel {
-    padding: 2rem;
-    animation: fadein 0.35s ease-in;
+  padding: 2rem;
+  animation: fadein 0.35s ease-in;
 }
 
 /* -------------------------------------------------- */
@@ -664,11 +653,11 @@ footer {
 /* -------------------------------------------------- */
 
 @keyframes fadein {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }

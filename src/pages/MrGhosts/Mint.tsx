@@ -35,7 +35,7 @@ const Mint = () => {
         </motion.div>
         <div className="mint-info d-flex flex-column text-center text-md-left justify-content-center col-md-6 position-relative">
           <h1 className="font-weight-bold mb-3">
-            Collection of 8658 unique Mr Ghosts NFT on the Elrond blockchain
+            Collection of 8658 unique Mr Ghost NFT on the Elrond blockchain
           </h1>
           <p className="mb-1">Drop 1 - 0.0666 EGLD</p>
           <p className="mb-5">213/666 Left</p>

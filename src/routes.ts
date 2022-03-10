@@ -10,7 +10,7 @@ import Transaction from "./pages/Transaction";
 type RouteType = Dapp.RouteType & { title: string };
 
 export const routeNames = {
-  MrGhosts: "/mr-ghosts",
+  MrGhosts: "/maiar-ghosts",
   home: "/",
   dashboard: "/dashboard",
   transaction: "/transaction",
@@ -21,7 +21,7 @@ export const routeNames = {
 
 const routes: RouteType[] = [
   {
-    path: "/mr-ghosts",
+    path: "/maiar-ghosts",
     title: "MrGhosts",
     component: MrGhosts,
   },

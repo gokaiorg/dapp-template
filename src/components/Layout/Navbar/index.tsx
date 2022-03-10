@@ -2,7 +2,6 @@ import React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import { Navbar as BsNavbar, NavItem, Nav } from "react-bootstrap";
 import { Link, NavLink, useHistory } from "react-router-dom";
-import { dAppName } from "config";
 import { routeNames } from "../../../routes";
 import TopInfo from "../Navbar/TopInfo";
 
@@ -25,20 +24,17 @@ const Navbar = () => {
       >
         <svg
           className="dapp-logo"
-          fill="currentColor"
           viewBox="0 0 255 396"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g stroke="none" strokeWidth="1" fill="none" strokeLinecap="round">
-            <path
-              d="M241.052502,12.7714358 C158.66596,21.4332536 12.8718865,73.0257773 12.8718865,241.823057 C12.8718865,370.87957 113.034972,382.544298 151.930611,382.544298 C190.501773,382.544298 242.052502,357.391985 242.052502,298.901663 C242.052502,271.873876 226.549054,235.605894 186.862107,235.605894 C162.5632,235.605894 150.930611,254.196925 150.930611,269.876476 C150.930611,285.556028 161.459592,293.403498 175.593211,293.403498 C188.99272,293.403498 187.826525,275.063609 180.73357,275.063609"
-              stroke="#fff"
-              strokeWidth="25"
-            />
-          </g>
+          <path
+            fillRule="evenodd"
+            fill="rgb(255, 255, 255)"
+            d="M52.0,0.0 C106.661,0.0 161.338,0.0 215.999,0.0 C215.666,18.331 215.333,36.668 215.0,54.999 C179.336,54.666 143.663,54.333 107.999,54.0 C107.999,71.998 107.999,90.1 107.999,107.999 C90.1,107.999 71.998,107.999 53.999,107.999 C53.999,160.994 53.999,214.5 53.999,267.0 C107.327,267.0 160.672,267.0 214.0,267.0 C214.0,249.668 214.0,232.331 214.0,215.0 C178.3,215.0 141.996,215.0 106.0,215.0 C106.0,196.668 106.0,178.331 106.0,159.999 C159.994,159.999 214.5,159.999 268.0,159.999 C268.0,214.327 268.0,268.672 268.0,323.0 C250.335,323.0 232.664,323.0 215.0,323.0 C215.333,340.331 215.666,357.668 215.999,375.0 C179.337,375.0 142.662,375.0 106.0,375.0 C106.0,357.335 106.0,339.664 106.0,321.999 C70.670,322.333 35.329,322.666 0.0,323.0 C0.0,232.675 0.0,142.324 0.0,51.999 C17.664,51.999 35.335,51.999 52.999,51.999 C52.666,34.668 52.333,17.331 52.0,0.0 Z"
+          />
         </svg>
-        <span className="dapp-name">{dAppName}</span>
-        <span className="ml-3">Devnet</span>
+        <span className="dapp-name text-4xl font-weight-normal">okai Labs</span>
+        <span className="ml-3 text-secondary font-weight-light">Devnet</span>
       </Link>
       <BsNavbar.Toggle aria-controls="main-nav" className="border-0 bg-white" />
       <BsNavbar.Collapse id="main-nav" className="row bg-black">
@@ -50,7 +46,7 @@ const Navbar = () => {
               data-testid="about"
               activeClassName="active"
             >
-              Mr Ghosts
+              Maiar Ghosts
             </NavLink>
           </NavItem>
           {!loggedIn && (
