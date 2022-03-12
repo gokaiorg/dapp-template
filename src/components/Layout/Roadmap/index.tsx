@@ -41,7 +41,7 @@ const Roadmap = () => {
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">60% Gokai Stake</h3>
-            <p className="h3">
+            <p className="h3 flex-nowrap">
               We have a simple target, we are going to stake the EGLDs to run a
               node and become validators of the Elrond network in Asia. Each
               node must bid 2500 EGLD to become a validator and is rewarded for
@@ -60,7 +60,7 @@ const Roadmap = () => {
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">20% Gokai Team</h3>
-            <p className="h3">
+            <p className="h3 flex-nowrap">
               This is the maximum amount of income the team will be able to
               receive, beyond a decent salary to live comfortably and be able to
               fully exercise their job, all of which will be injected into the
@@ -79,7 +79,7 @@ const Roadmap = () => {
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">20% Gokai Farm</h3>
-            <p className="h3">
+            <p className="h3 flex-nowrap">
               The environmental project will consist of the acquisition of
               intensive agricultural fields to recreate biodiversity with
               sustainable eco-forests. Part of the plots will be exploited in
@@ -89,21 +89,24 @@ const Roadmap = () => {
         </div>
       </div>
       <h2 className="h1 font-weight-bold my-5">Roadmap</h2>
-      <div className="d-flex flex-column flex-md-row col-md-9 mx-auto my-5">
-        <div className="col-md-4 mb-5">
-          <h3 className="font-weight-bold">Q1 2022</h3>
-          <p className="h3">Collection design</p>
-          <p className="h3">Giveaway & Drop 1</p>
-        </div>
+      <div className="d-flex flex-column flex-md-row col-md-10 mx-auto my-5">
         <div className="col-md-4 mb-5">
           <h3 className="font-weight-bold">Q2 2022</h3>
-          <p className="h3">Marketing campaign</p>
-          <p className="h3">Next drops</p>
+          <p className="h3 flex-nowrap">Collection design</p>
+          <p className="h3 flex-nowrap">Giveaway & Drop 1</p>
+          <p className="h3 flex-nowrap">Marketing campaign</p>;
         </div>
         <div className="col-md-4 mb-5">
           <h3 className="font-weight-bold">Q3 2022</h3>
-          <p className="h3">DAO governance</p>
-          <p className="h3">Community rewards</p>
+          <p className="h3 flex-nowrap">Community votes</p>
+          <p className="h3 flex-nowrap">Next drops</p>
+          <p className="h3 flex-nowrap">Partnerships</p>
+        </div>
+        <div className="col-md-4 mb-5">
+          <h3 className="font-weight-bold">Q4 2022</h3>
+          <p className="h3 flex-nowrap">DAO governance</p>
+          <p className="h3 flex-nowrap">Runing a node</p>
+          <p className="h3 flex-nowrap">Land acquisition</p>
         </div>
       </div>
     </div>
