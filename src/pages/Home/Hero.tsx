@@ -15,7 +15,7 @@ const Hero = () => {
           className="col-md-5 m-auto position-absolute inset-0 text-center"
         >
           <svg
-            className="dapp-logo h-100"
+            className="dapp-logo h-100 w-100"
             viewBox="0 0 255 396"
             xmlns="http://www.w3.org/2000/svg"
           >
