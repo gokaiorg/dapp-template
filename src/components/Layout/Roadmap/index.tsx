@@ -40,10 +40,12 @@ const Roadmap = () => {
             title="Mr Ghost Wallet"
           />
           <div className="col-md-8">
-            <h3 className="font-weight-bold">60% Community treasury</h3>
+            <h3 className="font-weight-bold">60% Gokai Stake</h3>
             <p className="h3">
-              The Community Treasury will create a value base and will be
-              governed by the NFT Mr Ghosts holders.
+              We have a simple target, we are going to stake the EGLDs to run a
+              node and become validators of the Elrond network in Asia. Each
+              node must bid 2500 EGLD to become a validator and is rewarded for
+              its service.
             </p>
           </div>
         </div>
@@ -57,12 +59,12 @@ const Roadmap = () => {
             title="Mr Ghost Working - Elrond"
           />
           <div className="col-md-8">
-            <h3 className="font-weight-bold">
-              20% Team development and marketing
-            </h3>
+            <h3 className="font-weight-bold">20% Gokai Team</h3>
             <p className="h3">
-              Improve the user experience, create new features, communicate and
-              promote the project.
+              This is the maximum amount of income the team will be able to
+              receive, beyond a decent salary to live comfortably and be able to
+              fully exercise their job, all of which will be injected into the
+              EGLD stake or environmental project.
             </p>
           </div>
         </div>
@@ -76,10 +78,12 @@ const Roadmap = () => {
             title="My Ghost Protect - Elrond"
           />
           <div className="col-md-8">
-            <h3 className="font-weight-bold">20% Environmental and Charity</h3>
+            <h3 className="font-weight-bold">20% Gokai Farm</h3>
             <p className="h3">
-              Acquire palm oil production to recreate biodiversity and create
-              Eco Guest House in southern Thailand.
+              The environmental project will consist of the acquisition of
+              intensive agricultural fields to recreate biodiversity with
+              sustainable eco-forests. Part of the plots will be exploited in
+              the first instance while new trees of all varieties grow.
             </p>
           </div>
         </div>
