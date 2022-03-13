@@ -1,7 +1,5 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { routeNames } from "../../routes";
 
 const Hero = () => {
   return (
@@ -32,13 +30,15 @@ const Hero = () => {
           </h1>
           <div className="position-absolute bottom-0 w-100">
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
-              <Link
-                to={routeNames.MrGhosts}
+              <a
+                href="https://medium.com/@GokaiLabs/gokai-labs-collectible-nft-dao-on-elrond-network-52c9401e022d"
+                data-testid="Discover"
+                target="_blank"
+                rel="noreferrer"
                 className="btn btn-link btn-lg mx-auto d-inline-flex"
-                data-testid="mrghosts"
               >
                 Discover
-              </Link>
+              </a>
             </motion.div>
           </div>
         </div>

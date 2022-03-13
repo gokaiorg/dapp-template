@@ -75,13 +75,16 @@ const Faq = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p className="h4">666 traits will build all the Mr Ghosts.</p>
             <p className="h4">
-              A total of 13 drops of 666 NFTs will be generated for a maximum
-              total of 8658 NFTs.
+              Mr Ghost is a collectible, unique, original and beautiful NFT, Mr
+              Ghost is the governance token of Gokai Labs DAO. Mr Ghost makes
+              you a shareholder of Gokai Labs and a major player in the
+              strategic decisions of the organisation!
             </p>
             <p className="h4">
-              Each owner will be a member of Gokai DAO. 1 NFT = 1 Vote
+              From now on you can vote in the Discord server to validate the
+              next NFT drops, their prices and other questions the community is
+              wondering about.
             </p>
           </AccordionItemPanel>
         </AccordionItem>
