@@ -359,6 +359,14 @@ iframe {
   }
 }
 
+.collab-row {
+  width: 50%;
+  margin: 0 1rem;
+  @include media-breakpoint-up(md) {
+    width: 15%;
+  }
+}
+
 /* Unlock page
 -------------------------------------------------- */
 div[data-testid="unlockPage"] {
