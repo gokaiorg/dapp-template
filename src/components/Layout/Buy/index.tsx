@@ -56,11 +56,20 @@ const Buy = () => {
         </div>
         <div className="text-white col-md-8 p-0">
           <h1 className="mb-2 text-2xl font-weight-bold" data-testid="title">
-            How to buy?
+            How to invest?
           </h1>
           <p className="text-xl p-0 mb-5 font-weight-bold">
-            To buy NFTs install Maiar Wallet on your phone and connect your
-            wallet to login.
+            To buy NFTs we recommend you to get Maiar Wallet on your phone and
+            connect your wallet to login. You can also create an{" "}
+            <a
+              {...{
+                target: "_blank",
+              }}
+              className="d-inline font-weight-bold text-white"
+              href="https://wallet.elrond.com/"
+            >
+              Elrond Web Wallet
+            </a>{" "}
           </p>
         </div>
         <div className="position-absolute box-blue-button">
