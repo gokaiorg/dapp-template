@@ -12,9 +12,6 @@ const Mrghosts = () => {
           <h2 className="mb-3 font-weight-bold h1" data-testid="title">
             Maiar Ghosts - Drop 1 coming soon
           </h2>
-          <p className="h2 p-0">
-            Buy NFTS and earn rewards directly in your Maiar application!
-          </p>
           <p className="h2 p-0 mb-5">
             Buy NFTS and become a member of Gokai Labs DAO.
           </p>
