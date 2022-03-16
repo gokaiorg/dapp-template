@@ -70,16 +70,26 @@ const Faq = () => {
           <AccordionItemHeading>
             <AccordionItemButton>
               <h3 className="h3 font-weight-bold mb-0">
-                Who is Mr Ghosts and why should you have at least one?
+                Who is Mr Ghosts and why should I have at least one?
               </h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
             <p className="h4">
-              Mr Ghost is a collectible, unique, original and beautiful NFT, Mr
-              Ghost is the governance token of Gokai Labs DAO. Mr Ghost makes
-              you a shareholder of Gokai Labs and a major player in the
-              strategic decisions of the organisation!
+              Mr Ghost is a collectible, unique, original and beautiful{" "}
+              <a
+                {...{
+                  target: "_blank",
+                }}
+                className="d-inline font-weight-bold"
+                href="https://elrond.com/blog/elrond-nft-space/"
+              >
+                NFT on Elrond
+              </a>{" "}
+              , Mr Ghost is the governance token of Gokai Labs DAO and its
+              number is limited to 8658 maximum! Mr Ghost makes you a
+              shareholder of Gokai Labs and a major player in the strategic
+              decisions of the organisation!
             </p>
             <p className="h4">
               From now on you can vote in the Discord server to validate the
