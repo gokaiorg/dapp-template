@@ -34,7 +34,6 @@ const Navbar = () => {
           />
         </svg>
         <span className="dapp-name text-4xl font-weight-normal">okai Labs</span>
-        <span className="ml-3 text-secondary font-weight-light">Devnet</span>
       </Link>
       <BsNavbar.Toggle aria-controls="main-nav" className="border-0 bg-white" />
       <BsNavbar.Collapse id="main-nav" className="row bg-black">

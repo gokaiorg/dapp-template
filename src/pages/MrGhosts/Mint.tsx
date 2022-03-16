@@ -64,8 +64,11 @@ const Mint = () => {
             </motion.div>
           )}
           {loggedIn && (
-            <div className="d-flex flex-row align-items-center">
-              <p className="font-weight-bold mr-5">Number of NFTs to mint?</p>
+            <div className="d-flex flex-column">
+              <p className="mb-5 font-weight-bold text-danger">
+                Devnet version - Mint not available - Stay tuned
+              </p>
+              {/* <p className="font-weight-bold mr-5">Number of NFTs to mint?</p>
               <input
                 type="text"
                 className="p-2 border-0 text-4xl mr-3 mghost-input text-center"
@@ -73,7 +76,7 @@ const Mint = () => {
               />
               <a className="btn btn-mr-ghosts text-black" title="Logout">
                 Mint
-              </a>
+              </a> */}
             </div>
           )}
         </div>

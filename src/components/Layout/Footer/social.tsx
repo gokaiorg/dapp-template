@@ -13,6 +13,7 @@ const Social = () => {
           }}
           className="d-flex text-black mr-md-4"
           href="https://twitter.com/GokaiLabs"
+          aria-label="Twitter"
         >
           <svg
             role="img"
@@ -30,6 +31,7 @@ const Social = () => {
           }}
           className="d-flex text-black mr-md-4"
           href="https://discord.gg/34p3JwKn7S"
+          aria-label="Discord"
         >
           <svg
             role="img"
@@ -47,6 +49,7 @@ const Social = () => {
           }}
           className="d-flex text-black mr-md-4"
           href="https://github.com/gokaiorg"
+          aria-label="Github"
         >
           <svg
             className="text-black social-icon mr-3"
@@ -64,6 +67,7 @@ const Social = () => {
           }}
           className="d-flex text-black mr-md-4"
           href="https://www.facebook.com/GokaiLabs"
+          aria-label="Facebook"
         >
           <svg
             className="text-black social-icon mr-3"
@@ -81,6 +85,7 @@ const Social = () => {
           }}
           className="d-flex text-black mr-md-4"
           href="https://www.instagram.com/gokailabs/"
+          aria-label="Instagram"
         >
           <svg
             className="text-black social-icon mr-3"
