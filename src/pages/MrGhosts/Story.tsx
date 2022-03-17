@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import MrGhostDriver from "../../assets/img/mr-ghost-driver-elrond.png";
+import MrGhostDriver from "../../assets/img/mr-ghost-driving-elrond-nft-dao-maiar-ghosts.png";
 
 const Story = () => {
   return (
@@ -36,8 +36,8 @@ const Story = () => {
         <img
           className="block w-100 mb-5"
           src={MrGhostDriver}
-          alt="Mr Ghost Driver"
-          title="Mr Ghost Driver"
+          alt="Mr Ghost Driving - Elrond NFT DAO - Maiar Ghosts"
+          title="Mr Ghost Driving - Elrond NFT DAO - Maiar Ghosts"
         />
       </motion.div>
     </div>

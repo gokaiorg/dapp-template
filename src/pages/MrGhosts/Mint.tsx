@@ -2,7 +2,7 @@ import * as React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import MrGhostsMint from "../../assets/img/maiar-ghosts-mint-elrond.gif";
+import MrGhostsMint from "../../assets/img/maiar-ghosts-mint-elrond-nft-dao.gif";
 import { routeNames } from "../../routes";
 
 const Mint = () => {
@@ -29,8 +29,8 @@ const Mint = () => {
           <img
             className="block w-100"
             src={MrGhostsMint}
-            alt="Mr Ghosts Mint"
-            title="Mr Ghosts Mint"
+            alt="Mr Ghost Minting - Elrond NFT DAO - Maiar Ghosts"
+            title="Mr Ghost Minting - Elrond NFT DAO - Maiar Ghosts"
           />
         </motion.div>
         <div className="mint-info d-flex flex-column text-center text-md-left justify-content-center col-md-6 position-relative">

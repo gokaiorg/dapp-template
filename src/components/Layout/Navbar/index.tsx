@@ -42,7 +42,8 @@ const Navbar = () => {
             <NavLink
               to={routeNames.MrGhosts}
               className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
-              data-testid="about"
+              data-testid="Mint a Mr Ghost - Gokai Labs NFT DAO - Maiar Ghosts"
+              title="Mint a Mr Ghost - Gokai Labs NFT DAO - Maiar Ghosts"
               activeClassName="active"
             >
               Maiar Ghosts
@@ -52,7 +53,8 @@ const Navbar = () => {
             <NavLink
               to={routeNames.unlock}
               className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
-              data-testid="loginBtn"
+              data-testid="Login - Gokai Labs NFT DAO - Maiar Ghosts"
+              title="Login - Gokai Labs NFT DAO - Maiar Ghosts"
               activeClassName="active"
             >
               <svg
@@ -74,7 +76,8 @@ const Navbar = () => {
                 href="/"
                 onClick={logOut}
                 className="btn btn-revert text-black"
-                title="Logout"
+                data-testid="Logout - Gokai Labs NFT DAO - Maiar Ghosts"
+                title="Logout - Gokai Labs NFT DAO - Maiar Ghosts"
               >
                 <svg
                   width="24px"

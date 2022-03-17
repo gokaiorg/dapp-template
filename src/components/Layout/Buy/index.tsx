@@ -67,6 +67,8 @@ const Buy = () => {
               }}
               className="d-inline font-weight-bold text-white"
               href="https://wallet.elrond.com/"
+              data-testid="Elrond Web Wallet - Gokai Labs NFT DAO - Maiar Ghosts"
+              title="Elrond Web Wallet - Gokai Labs NFT DAO - Maiar Ghosts"
             >
               Elrond Web Wallet
             </a>{" "}
@@ -77,7 +79,8 @@ const Buy = () => {
             <a
               href="https://get.maiar.com/referral/7nvae7kpo1"
               className="btn btn-link btn-lg btn-dark-blue font-weight-bold mx-auto d-inline-flex"
-              data-testid="getmaiar"
+              data-testid="Get Maiar App - Gokai Labs NFT DAO - Maiar Ghosts"
+              title="Get Maiar App - Gokai Labs NFT DAO - Maiar Ghosts"
             >
               Get Maiar
             </a>

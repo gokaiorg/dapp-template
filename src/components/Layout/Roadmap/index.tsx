@@ -1,9 +1,9 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import MrGhostProtect from "../../../assets/img/mr-ghost-protect-elrond.webp";
-import MrGhostMoon from "../../../assets/img/mr-ghost-to-the-moon-elrond.webp";
-import MrGhostWallet from "../../../assets/img/mr-ghost-wallet-elrond.webp";
-import MrGhostWorking from "../../../assets/img/mr-ghost-working-elrond.webp";
+import MrGhostProtect from "../../../assets/img/mr-ghost-farming-elrond-nft-dao-maiar-ghosts.webp";
+import MrGhostMoon from "../../../assets/img/mr-ghost-mooning-elrond-nft-dao-maiar-ghosts.webp";
+import MrGhostWallet from "../../../assets/img/mr-ghost-staking-elrond-nft-dao-maiar-ghosts.webp";
+import MrGhostWorking from "../../../assets/img/mr-ghost-working-elrond-nft-dao-maiar-ghosts.webp";
 
 const Roadmap = () => {
   return (
@@ -25,8 +25,8 @@ const Roadmap = () => {
           height="250px"
           className="block w-100 mb-5"
           src={MrGhostMoon}
-          alt="Mr Ghost to the Moon - Elrond"
-          title="Mr Ghost to the Moon - Elrond"
+          alt="Mr Ghost Mooning - Elrond NFT DAO - Maiar Ghosts"
+          title="Mr Ghost Mooning - Elrond NFT DAO - Maiar Ghosts"
         />
       </motion.div>
       <div className="d-flex flex-column my-5 col-md-9 mx-auto">
@@ -36,8 +36,8 @@ const Roadmap = () => {
             src={MrGhostWallet}
             width="250px"
             height="250px"
-            alt="Mr Ghost Wallet"
-            title="Mr Ghost Wallet"
+            alt="Mr Ghost Staking - Elrond NFT DAO - Maiar Ghosts"
+            title="Mr Ghost Staking - Elrond NFT DAO - Maiar Ghosts"
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">60% Gokai Stake</h3>
@@ -55,8 +55,8 @@ const Roadmap = () => {
             src={MrGhostWorking}
             width="250px"
             height="250px"
-            alt="Mr Ghost Working - Elrond"
-            title="Mr Ghost Working - Elrond"
+            alt="Mr Ghost Working - Elrond NFT DAO - Maiar Ghosts"
+            title="Mr Ghost Working - Elrond NFT DAO - Maiar Ghosts"
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">20% Gokai Team</h3>
@@ -74,8 +74,8 @@ const Roadmap = () => {
             src={MrGhostProtect}
             width="250px"
             height="250px"
-            alt="My Ghost Protect - Elrond"
-            title="My Ghost Protect - Elrond"
+            alt="Mr Ghost Farming - Elrond NFT DAO - Maiar Ghosts"
+            title="Mr Ghost Farming - Elrond NFT DAO - Maiar Ghosts"
           />
           <div className="col-md-8">
             <h3 className="font-weight-bold">20% Gokai Farm</h3>

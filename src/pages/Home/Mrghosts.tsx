@@ -1,7 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import MrGhostWin from "../../assets/img/mr-ghost-winning-elrond.webp";
+import MrGhostWin from "../../assets/img/mr-ghost-winning-elrond-nft-dao-maiar-ghosts.webp";
 import { routeNames } from "../../routes";
 
 const Mrghosts = () => {
@@ -19,7 +19,8 @@ const Mrghosts = () => {
             <Link
               to={routeNames.MrGhosts}
               className="btn btn-link btn-lg mx-auto d-inline-flex"
-              data-testid="about"
+              data-testid="Buy NFT"
+              title="Buy Mr Ghost NFT and become a member of Gokai Labs DAO on Elrond Network - Maiar Ghosts"
             >
               Buy NFT
             </Link>
@@ -43,8 +44,8 @@ const Mrghosts = () => {
               height="512px"
               className="block"
               src={MrGhostWin}
-              alt="Mr Ghost Winning - Elrond"
-              title="Mr Ghost Winning - Elrond"
+              alt="Mr Ghost Winning - Elrond NFT DAO - Maiar Ghosts"
+              title="Mr Ghost Winning - Elrond NFT DAO - Maiar Ghosts"
             />
           </motion.div>
         </div>

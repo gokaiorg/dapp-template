@@ -32,7 +32,8 @@ const Hero = () => {
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
               <a
                 href="https://medium.com/@GokaiLabs/gokai-labs-collectible-nft-dao-on-elrond-network-52c9401e022d"
-                data-testid="Discover"
+                data-testid="Medium Story - Gokai Labs NFT DAO - Maiar Ghosts"
+                title="Medium Story - Gokai Labs NFT DAO - Maiar Ghosts"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-link btn-lg mx-auto d-inline-flex"
