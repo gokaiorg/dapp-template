@@ -2,7 +2,7 @@ import * as React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import MrGhostsMint from "../../assets/img/mr-ghosts-mint-elrond.gif";
+import MrGhostsMint from "../../assets/img/maiar-ghosts-mint-elrond.gif";
 import { routeNames } from "../../routes";
 
 const Mint = () => {
