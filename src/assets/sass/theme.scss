@@ -270,33 +270,60 @@ table {
 .hero {
   position: relative;
   height: calc(100vh - 170px);
+  background: black;
 
   &-title {
     height: fit-content;
     padding-bottom: 5rem;
+    z-index: 2;
   }
 }
 
 /* Ghosts
 -------------------------------------------------- */
-#mr-ghosts {
-  background: #000 url("../img/bg-mr-ghost-top.png") no-repeat;
-  background-size: cover;
-  background-position: top left;
-
-  h1 {
-    line-height: 4rem;
+.mr-ghost {
+  &-mint {
+    background: black;
+  }
+  &-earth {
+    z-index: 1;
+    top: 4rem;
+    left: 4rem;
+    width: 100px;
+    height: 100px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    @include media-breakpoint-up(lg) {
+      top: 6rem;
+      left: 6rem;
+      height: 140px;
+      width: 140px;
+    }
+    @include media-breakpoint-up(xl) {
+      top: 8rem;
+      left: 8rem;
+      height: 180px;
+      width: 180px;
+    }
+  }
+  &-animated {
+    z-index: 2;
+    @include media-breakpoint-up(md) {
+      height: 500px;
+      width: 500px;
+    }
+    img {
+      width: 80%;
+      height: auto;
+      @include media-breakpoint-up(md) {
+        width: 30%;
+      }
+    }
   }
 }
 
-.bg-mr-ghost-top {
-  background: #000 url("../img/bg-mr-ghost-top.png") no-repeat;
-  background-size: cover;
-  background-position: top left;
-}
-
-.mrghosts,
-.mr-ghosts-story,
 .bg-mr-ghost-bottom {
   background: #000 url("../img/bg-mr-ghost-bottom.png") no-repeat;
   background-size: cover;
@@ -314,20 +341,6 @@ table {
 iframe {
   border: 0;
   max-width: 100%;
-}
-
-.mrghost-animated {
-  @include media-breakpoint-up(md) {
-    height: 500px;
-    width: 500px;
-  }
-  img {
-    width: 80%;
-    height: auto;
-    @include media-breakpoint-up(md) {
-      width: 30%;
-    }
-  }
 }
 
 .mint-info {
@@ -635,11 +648,14 @@ footer {
   display: inline-block;
   content: "";
   height: 10px;
-  width: 10px;
-  margin-right: 12px;
+  width: 15px;
+  margin-right: 1rem;
   border-bottom: 2px solid currentColor;
   border-right: 2px solid currentColor;
   transform: rotate(-45deg);
+  @include media-breakpoint-up(sm) {
+    width: 10px;
+  }
 }
 
 .accordion__button[aria-expanded="true"]::before,

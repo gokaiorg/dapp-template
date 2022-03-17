@@ -25,23 +25,24 @@ const Hero = () => {
           </svg>
         </motion.div>
         <div className="hero-title d-block text-white my-4 col-xl-10 text-center align-items-center justify-center m-auto position-absolute inset-0">
-          <h1 className="mb-3 text-6xl font-weight-bold" data-testid="title">
+          <h1
+            className="mb-3 mb-md-5 text-6xl font-weight-bold"
+            data-testid="title"
+          >
             Community-driven collectible NFT DAO on Elrond Network
           </h1>
-          <div className="position-absolute bottom-0 w-100">
-            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
-              <a
-                href="https://medium.com/@GokaiLabs/gokai-labs-collectible-nft-dao-on-elrond-network-52c9401e022d"
-                data-testid="Medium Story - Gokai Labs NFT DAO - Maiar Ghosts"
-                title="Medium Story - Gokai Labs NFT DAO - Maiar Ghosts"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-link btn-lg mx-auto d-inline-flex"
-              >
-                Discover
-              </a>
-            </motion.div>
-          </div>
+          <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
+            <a
+              href="https://medium.com/@GokaiLabs/gokai-labs-collectible-nft-dao-on-elrond-network-52c9401e022d"
+              data-testid="Medium Story - Gokai Labs NFT DAO - Maiar Ghosts"
+              title="Medium Story - Gokai Labs NFT DAO - Maiar Ghosts"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-link btn-lg mx-auto d-inline-flex"
+            >
+              Discover
+            </a>
+          </motion.div>
         </div>
       </div>
     </div>

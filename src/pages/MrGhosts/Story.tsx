@@ -21,7 +21,7 @@ const Story = () => {
         Elrond and Maiar wallet.
       </p>
       <motion.div
-        className="mrghost-animated col-md-4"
+        className="mr-ghost-animated col-md-4"
         animate={{
           y: [-50, 50, -50],
           x: [-1000, 2000],

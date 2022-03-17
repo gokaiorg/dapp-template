@@ -10,12 +10,12 @@ const Mint = () => {
 
   return (
     <div
-      className="mr-ghosts-mint bg-mr-ghost-top mint text-white text-xl w-100 pt-5 pb-0 pb-md-5"
+      className="mr-ghost-mint text-white text-xl w-100 pt-5 pb-0 pb-md-5"
       data-testid="Mint"
     >
       <div className="d-flex flex-column flex-md-row col-md-9 mx-auto">
         <motion.div
-          className="mrghost-animated col-md-6"
+          className="mr-ghost-animated col-md-6"
           animate={{
             y: [-15, 15, -15],
           }}
