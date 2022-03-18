@@ -73,7 +73,6 @@ const Roadmap = () => {
               title="Mr Ghost Working - Elrond NFT DAO - Maiar Ghosts"
             />
           </AnimationOnScroll>
-
           <AnimationOnScroll
             className="col-md-8"
             animateIn="animate__bounceInLeft"

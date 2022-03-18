@@ -1,4 +1,5 @@
 import * as React from "react";
+// import Team from "components/Layout/Team";
 import Buy from "../../components/Layout/Buy";
 import Collab from "../../components/Layout/Collab";
 import Faq from "../../components/Layout/Faq";
@@ -16,6 +17,7 @@ const Home = () => {
       <Roadmap />
       <Buy />
       <Faq />
+      {/* <Team /> */}
       <Collab />
     </>
   );

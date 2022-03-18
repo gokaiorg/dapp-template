@@ -16,11 +16,7 @@ const Faq = () => {
         <h2 className="h1 font-weight-bold my-5">FAQ</h2>
       </AnimationOnScroll>
       <Accordion>
-        <AnimationOnScroll
-          className="mb-3"
-          delay={200}
-          animateIn="animate__fadeInBottom"
-        >
+        <AnimationOnScroll className="mb-3" animateIn="animate__fadeInBottom">
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton>
@@ -47,7 +43,7 @@ const Faq = () => {
         </AnimationOnScroll>
         <AnimationOnScroll
           className="mb-3"
-          delay={400}
+          delay={100}
           animateIn="animate__fadeInBottom"
         >
           <AccordionItem>
@@ -84,7 +80,7 @@ const Faq = () => {
         </AnimationOnScroll>
         <AnimationOnScroll
           className="mb-3"
-          delay={600}
+          delay={200}
           animateIn="animate__fadeInBottom"
         >
           <AccordionItem>
