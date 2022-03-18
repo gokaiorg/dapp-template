@@ -126,7 +126,7 @@ const Roadmap = () => {
           <h3 className="font-weight-bold">Q2 2022</h3>
           <p className="h3 flex-nowrap">Collection design</p>
           <p className="h3 flex-nowrap">Giveaway & Drop 1</p>
-          <p className="h3 flex-nowrap">Marketing campaign</p>;
+          <p className="h3 flex-nowrap">Marketing campaign</p>
         </AnimationOnScroll>
         <AnimationOnScroll
           animateIn="animate__bounceInLeft"
