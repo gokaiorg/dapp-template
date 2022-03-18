@@ -381,10 +381,23 @@ iframe {
 }
 
 .team-row {
-  width: 50%;
+  width: 70%;
   margin: 0 1rem;
+  @include media-breakpoint-up(sm) {
+    width: 44%;
+    margin: 0 1rem;
+  }
   @include media-breakpoint-up(md) {
-    width: 30%;
+    width: 26%;
+    margin: 0 1rem;
+  }
+  @include media-breakpoint-up(xl) {
+    width: 28%;
+    margin: 0 2rem;
+  }
+
+  a {
+    margin-bottom: -2rem;
   }
 }
 

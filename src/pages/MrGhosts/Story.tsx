@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import MrGhostDriver from "../../assets/img/mr-ghost-driving-elrond-nft-dao-maiar-ghosts.png";
+import MrGhostDriver from "../../assets/img/mr-ghost-driving-elrond-nft-dao-maiar-ghosts.webp";
 
 const Story = () => {
   return (
