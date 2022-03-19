@@ -373,10 +373,15 @@ iframe {
 }
 
 .collab-row {
-  width: 50%;
+  width: 30%;
   margin: 0 1rem;
   @include media-breakpoint-up(md) {
     width: 15%;
+    margin: 0 2rem;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 10%;
+    margin: 0 1rem;
   }
 }
 
@@ -422,7 +427,7 @@ div[data-testid="unlockPage"] {
   }
 
   .card {
-    margin: 0 !important;
+    margin-top: 3rem !important;
     border: 0 !important;
     background-color: transparent;
 

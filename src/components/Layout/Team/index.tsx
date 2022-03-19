@@ -1,4 +1,5 @@
 import * as React from "react";
+import { motion } from "framer-motion";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Albert from "../../../assets/img/bebert-gokai-labs-elrond-nft-dao-maiar-ghosts.webp";
@@ -16,7 +17,8 @@ const Team = () => {
       </AnimationOnScroll>
       <div className="d-flex flex-wrap align-items-top justify-content-center my-5 mx-md-5">
         <AnimationOnScroll className="team-row" animateIn="animate__bounceIn">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.2 }}
             href="https://www.linkedin.com/in/jeremy-douchamps/"
             data-testid="jeremy"
             target="_blank"
@@ -31,13 +33,14 @@ const Team = () => {
               alt="Jeremy - Founder - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
               title="Jeremy - Founder - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
             />
-          </a>
+          </motion.a>
           <h3 className="font-weight-bold">Jeremy</h3>
           <h4>Founder</h4>
           <h5>gokai.elrond</h5>
         </AnimationOnScroll>
         <AnimationOnScroll className="team-row" animateIn="animate__bounceIn">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.2 }}
             href="https://github.com/VladimirAndrianov96"
             data-testid="vladimir"
             target="_blank"
@@ -52,13 +55,14 @@ const Team = () => {
               alt="Vladimir - Developer - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
               title="Vladimir - Developer - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
             />
-          </a>
+          </motion.a>
           <h3 className="font-weight-bold">Vladimir</h3>
           <h4>Developer</h4>
           <h5>build.elrond</h5>
         </AnimationOnScroll>
         <AnimationOnScroll className="team-row" animateIn="animate__bounceIn">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.2 }}
             href="hhttps://www.linkedin.com/in/albertlanne/"
             data-testid="albertnetwork"
             target="_blank"
@@ -73,13 +77,14 @@ const Team = () => {
               alt="Albert - SEO Expert - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
               title="Albert - SEO Expert - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
             />
-          </a>
+          </motion.a>
           <h3 className="font-weight-bold">Albert</h3>
           <h4>SEO expert</h4>
           <h5>bebert.elrond</h5>
         </AnimationOnScroll>
         <AnimationOnScroll className="team-row" animateIn="animate__bounceIn">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.2 }}
             href="https://www.linkedin.com/in/nati-douchamps-1151a8144/"
             data-testid="nati"
             target="_blank"
@@ -94,13 +99,14 @@ const Team = () => {
               alt="Nati - Marketer - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
               title="Nati - Marketer - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
             />
-          </a>
+          </motion.a>
           <h3 className="font-weight-bold">Nati</h3>
           <h4>Marketer</h4>
           <h5>nati.elrond</h5>
         </AnimationOnScroll>
         <AnimationOnScroll className="team-row" animateIn="animate__bounceIn">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.2 }}
             href="https://www.instagram.com/louislanne/"
             data-testid="louis"
             target="_blank"
@@ -115,13 +121,14 @@ const Team = () => {
               alt="Louis - Artist - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
               title="Louis - Artist - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
             />
-          </a>
+          </motion.a>
           <h3 className="font-weight-bold">Louis</h3>
           <h4>Artist</h4>
           <h5>louislanne.elrond</h5>
         </AnimationOnScroll>
         <AnimationOnScroll className="team-row" animateIn="animate__bounceIn">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.2 }}
             href="https://www.linkedin.com/in/jessica-d-21b267114/"
             data-testid="jessica"
             target="_blank"
@@ -136,7 +143,7 @@ const Team = () => {
               alt="Jessica - Redactor - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
               title="Jessica - Redactor - Gokai Labs NFT DAO Elrond - Maiar Ghosts"
             />
-          </a>
+          </motion.a>
           <h3 className="font-weight-bold">Jessica</h3>
           <h4>Redactor</h4>
         </AnimationOnScroll>
