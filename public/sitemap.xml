@@ -1,11 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"> 
    <url>
       <loc>https://gokai.org/</loc>
       <lastmod>2022-03-12T17:30:00-02:00</lastmod>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/mr-ghost-earth-elrond-nft-dao-maiar-ghosts.caf39571.webp</image:loc>
+         <image:caption>Mr Ghost earth on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Earth</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/mr-ghost-winning-elrond-nft-dao-maiar-ghosts.45c4991c.webp</image:loc>
+         <image:caption>Mr Ghost winning on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Winning</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/mr-ghost-mooning-elrond-nft-dao-maiar-ghosts.427a6df2.webp</image:loc>
+         <image:caption>Mr Ghost mooning on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Mooning</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/mr-ghost-staking-elrond-nft-dao-maiar-ghosts.04c0d795.webp</image:loc>
+         <image:caption>Mr Ghost staking on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Staking</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/mr-ghost-working-elrond-nft-dao-maiar-ghosts.ea72d9c4.webp</image:loc>
+         <image:caption>Mr Ghost working on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Working</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/mr-ghost-farming-elrond-nft-dao-maiar-ghosts.ffe0867d.webp</image:loc>
+         <image:caption>Mr Ghost farming on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Farming</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/jeremy-gokai-labs-elrond-nft-dao-maiar-ghosts.656f0fa2.webp</image:loc>
+         <image:caption>Mr Ghost Gokai on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Gokai</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/build-gokai-labs-elrond-nft-dao-maiar-ghosts.6312221b.webp</image:loc>
+         <image:caption>Mr Ghost build on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Build</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/build-gokai-labs-elrond-nft-dao-maiar-ghosts.6312221b.webp</image:loc>
+         <image:caption>Mr Ghost build on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Build</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/bebert-gokai-labs-elrond-nft-dao-maiar-ghosts.76afc43c.webp</image:loc>
+         <image:caption>Mr Ghost Bebert on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Bebert</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/nati-gokai-labs-elrond-nft-dao-maiar-ghosts.7f1e5f60.webp</image:loc>
+         <image:caption>Mrs Ghost Nati on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mrs Ghost Nati</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/louislanne-gokai-labs-elrond-nft-dao-maiar-ghosts.42d40e21.webp</image:loc>
+         <image:caption>Mr Ghost Louis Lanne on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Louis Lanne</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/louislanne-gokai-labs-elrond-nft-dao-maiar-ghosts.42d40e21.webp</image:loc>
+         <image:caption>Mr Ghost Louis Lanne on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Louis Lanne</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/jessica-gokai-labs-elrond-nft-dao-maiar-ghosts.00f8d219.webp</image:loc>
+         <image:caption>Mrs Ghost Jessica on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mrs Ghost Jessica</image:title>
+      </image:image>
    </url>
    <url>
       <loc>https://gokai.org/maiar-ghosts</loc>
       <lastmod>2022-03-12T17:30:00-02:00</lastmod>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/maiar-ghosts-mint-elrond-nft-dao.713c5cf7.gif</image:loc>
+         <image:caption>Maiar Ghosts mint on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Maiar Ghosts Mint</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gokai.org/static/media/mr-ghost-driving-elrond-nft-dao-maiar-ghosts.e6716f45.webp</image:loc>
+         <image:caption>Mr Ghost driving on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost Driving</image:title>
+      </image:image>
    </url>
 </urlset>
