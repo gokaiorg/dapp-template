@@ -3,7 +3,6 @@ import * as Dapp from "@elrondnetwork/dapp";
 import { Navbar as BsNavbar, NavItem, Nav } from "react-bootstrap";
 import { Link, NavLink, useHistory } from "react-router-dom";
 import { routeNames } from "../../../routes";
-import TopInfo from "../Navbar/TopInfo";
 
 const Navbar = () => {
   const { loggedIn } = Dapp.useContext();
@@ -66,16 +65,14 @@ const Navbar = () => {
               >
                 <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
               </svg>
-              Login
             </NavLink>
           )}
           {loggedIn && (
             <NavItem className="d-flex flex-row align-items-center ml-3 font-weight-bold">
-              <TopInfo />
               <a
                 href="/"
                 onClick={logOut}
-                className="btn btn-revert text-black"
+                className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
                 data-testid="Logout - Gokai Labs NFT DAO - Maiar Ghosts"
                 title="Logout - Gokai Labs NFT DAO - Maiar Ghosts"
               >

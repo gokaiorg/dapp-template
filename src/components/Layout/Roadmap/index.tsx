@@ -50,12 +50,12 @@ const Roadmap = () => {
             className="col-md-8"
             animateIn="animate__bounceInRight"
           >
-            <h3 className="font-weight-bold">60% Gokai Stake</h3>
+            <h3 className="font-weight-bold">Gokai Stake</h3>
             <p className="h3 flex-nowrap">
-              We have a simple target, we are going to stake the EGLDs to run a
-              node and become validators of the Elrond network in Asia. Each
-              node must bid 2500 EGLD to become a validator and is rewarded for
-              its service.
+              We have a simple priority target, we are going to stake the EGLDs
+              to run a node and become validators of the Elrond network in Asia.
+              Each node must bid 2500 EGLD to become a validator and is rewarded
+              for its service.
             </p>
           </AnimationOnScroll>
         </div>
@@ -77,12 +77,12 @@ const Roadmap = () => {
             className="col-md-8"
             animateIn="animate__bounceInLeft"
           >
-            <h3 className="font-weight-bold">20% Gokai Team</h3>
+            <h3 className="font-weight-bold">Gokai Team</h3>
             <p className="h3 flex-nowrap">
-              This is the maximum amount of income the team will be able to
+              There will be a maximum amount of income the team will be able to
               receive, beyond a decent salary to live comfortably and be able to
               fully exercise their job, all of which will be injected into the
-              EGLD stake or environmental project.
+              EGLD stake.
             </p>
           </AnimationOnScroll>
         </div>
@@ -105,12 +105,13 @@ const Roadmap = () => {
             className="col-md-8"
             animateIn="animate__bounceInRight"
           >
-            <h3 className="font-weight-bold">20% Gokai Farm</h3>
+            <h3 className="font-weight-bold">Gokai Farm</h3>
             <p className="h3 flex-nowrap">
-              The environmental project will consist of the acquisition of
-              intensive agricultural fields to recreate biodiversity with
-              sustainable eco-forests. Part of the plots will be exploited in
-              the first instance while new trees of all varieties grow.
+              We propose an environmental project that would consist of the
+              acquisition of intensive agricultural fields to recreate
+              biodiversity with sustainable and tokenized eco-forests. This
+              project will have to be validated by your vote and can only start
+              after phase 1 of Staking.
             </p>
           </AnimationOnScroll>
         </div>
