@@ -13,7 +13,7 @@ export const walletConnectDeepLink =
   "https://maiar.page.link/?apn=com.elrond.maiar.wallet&isi=1519405832&ibi=com.elrond.maiar.wallet.dev&link=https://maiar.com/";
 
 export const contractAddress =
-  "erd1qqqqqqqqqqqqqpgquvt728n40ssd8n2qns9jrlqpwq2jc4rj4cysfuj3ad";
+  "erd1qqqqqqqqqqqqqpgqrn09tqrx9glfmhwe5j8qdx2zfrvz2u74h50sgz7hcn";
 
 export const network: Dapp.NetworkType = {
   id: "devnet",

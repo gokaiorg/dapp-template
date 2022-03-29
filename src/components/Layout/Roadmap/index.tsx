@@ -55,7 +55,16 @@ const Roadmap = () => {
               We have a simple priority target, we are going to stake the EGLDs
               to run a node and become validators of the Elrond network in Asia.
               Each node must bid 2500 EGLD to become a validator and is rewarded
-              for its service.
+              for its service.{" "}
+              <a
+                {...{
+                  target: "_blank",
+                }}
+                className="d-inline font-weight-bold"
+                href="https://medium.com/@GokaiLabs/gokai-labs-stake-egld-to-become-validator-of-the-elrond-blockchain-b394d620ded0"
+              >
+                Read more
+              </a>
             </p>
           </AnimationOnScroll>
         </div>

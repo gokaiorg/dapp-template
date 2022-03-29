@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"> 
    <url>
       <loc>https://gokai.org/</loc>
-      <lastmod>2022-03-20T17:30:00-02:00</lastmod>
+      <lastmod>2022-03-29T00:00:00+07:00</lastmod>
       <image:image>
          <image:loc>https://gokai.org/static/media/mr-ghost-earth-elrond-nft-dao-maiar-ghosts.caf39571.webp</image:loc>
          <image:caption>Mr Ghost earth on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
@@ -76,7 +76,7 @@
    </url>
    <url>
       <loc>https://gokai.org/maiar-ghosts</loc>
-      <lastmod>2022-03-12T17:30:00-02:00</lastmod>
+      <lastmod>2022-03-29T00:00:00+07:00</lastmod>
       <image:image>
          <image:loc>https://gokai.org/static/media/maiar-ghosts-mint-elrond-nft-dao.713c5cf7.gif</image:loc>
          <image:caption>Maiar Ghosts mint on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
@@ -86,6 +86,66 @@
          <image:loc>https://gokai.org/static/media/mr-ghost-driving-elrond-nft-dao-maiar-ghosts.e6716f45.webp</image:loc>
          <image:caption>Mr Ghost driving on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
          <image:title>Mr Ghost Driving</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/1.png</image:loc>
+         <image:caption>Mr Ghost #1 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #1</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/2.png</image:loc>
+         <image:caption>Mr Ghost #2 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #2</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/3.png</image:loc>
+         <image:caption>Mr Ghost #3 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #3</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/4.png</image:loc>
+         <image:caption>Mr Ghost #4 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #4</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/5.png</image:loc>
+         <image:caption>Mr Ghost #5 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #5</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/6.png</image:loc>
+         <image:caption>Mr Ghost #6 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #6</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/7.png</image:loc>
+         <image:caption>Mr Ghost #7 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #7</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/8.png</image:loc>
+         <image:caption>Mr Ghost #8 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #8</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/9.png</image:loc>
+         <image:caption>Mr Ghost #9 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #9</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/10.png</image:loc>
+         <image:caption>Mr Ghost #10 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #10</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/11.png</image:loc>
+         <image:caption>Mr Ghost #11 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #11</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://gateway.pinata.cloud/ipfs/Qmd23ivXj12EDRGoNHLLFGBuE3AuQm4KUTMdeVFRqHLP1n/12.png</image:loc>
+         <image:caption>Mr Ghost #12 on Elrond NFT DAO Maiar Ghosts Collection</image:caption>
+         <image:title>Mr Ghost #12</image:title>
       </image:image>
    </url>
 </urlset>
