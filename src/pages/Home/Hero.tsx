@@ -29,7 +29,7 @@ const Hero = () => {
             className="mb-3 mb-md-5 text-6xl font-weight-bold"
             data-testid="title"
           >
-            Community-driven collectible NFT DAO on Elrond Network
+            Collectible NFT DAO project on Elrond Network
           </h1>
           <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <a

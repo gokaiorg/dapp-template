@@ -46,7 +46,7 @@ const routes: RouteType[] = [
 const wrappedRoutes = () =>
   routes.map((route) => {
     const title = route.title
-      ? `${dAppName} | Community-driven collectible NFT DAO on Elrond Network - Maiar Ghosts NFT collection`
+      ? `${dAppName} | Collectible NFT DAO project on Elrond Network - Maiar Ghosts NFT collection`
       : `${dAppName}`;
     return {
       path: route.path,
