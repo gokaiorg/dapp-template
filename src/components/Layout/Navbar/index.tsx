@@ -48,6 +48,18 @@ const Navbar = () => {
               Maiar Ghosts
             </NavLink>
           </NavItem>
+          <NavItem className="d-flex flex-row align-items-center">
+            <a
+              href="https://medium.com/@GokaiLabs"
+              className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
+              data-testid="Blog - Gokai Labs NFT DAO - Maiar Ghosts"
+              title="Blog - Gokai Labs NFT DAO - Maiar Ghosts"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Blog
+            </a>
+          </NavItem>
           {!loggedIn && (
             <NavLink
               to={routeNames.unlock}

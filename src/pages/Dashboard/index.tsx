@@ -2,11 +2,13 @@ import * as React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import { faBan } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import TopInfo from "components/Layout/Navbar/TopInfo";
 import PageState from "components/PageState";
 import { contractAddress } from "config";
 import { useContext, useDispatch } from "context";
+import GokaiWallet from "./GokaiWallet";
+import Governance from "./Governance";
 import { getTransactions } from "./helpers/asyncRequests";
+import TopInfo from "./TopInfo";
 
 const Dashboard = () => {
   const ref = React.useRef(null);
@@ -49,10 +51,14 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="dashboard border-top-main" ref={ref}>
+    <div className="container my-5 dashboard" ref={ref}>
       <div className="d-flex flex-column container-fluid p-0">
-        <h1>Dashboard</h1>
-        <TopInfo />
+        <h1 className="h1 font-weight-bold mb-3">Dashboard</h1>
+        <div className="d-flex flex-column-reverse flex-md-row">
+          <TopInfo />
+          <GokaiWallet />
+        </div>
+        <Governance />
       </div>
     </div>
   );
