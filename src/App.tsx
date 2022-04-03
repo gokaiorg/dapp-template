@@ -2,6 +2,7 @@ import React from "react";
 import * as Dapp from "@elrondnetwork/dapp";
 import ReactGA from "react-ga";
 import { Route, Switch } from "react-router-dom";
+import ScrollToTop from "components/Layout/ScrollToTop";
 import Layout from "./components/Layout";
 import PageNotFoud from "./components/PageNotFoud";
 import * as config from "./config";
@@ -16,6 +17,7 @@ export default function App() {
     <Dapp.Context config={config}>
       <ContextProvider>
         <Layout>
+          <ScrollToTop />
           <Switch>
             <Route
               path={routeNames.unlock}
@@ -49,7 +51,6 @@ export default function App() {
               )}
               exact={true}
             />
-
             {routes.map((route, i) => (
               <Route
                 path={route.path}

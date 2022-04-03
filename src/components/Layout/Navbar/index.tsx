@@ -39,7 +39,7 @@ const Navbar = () => {
         <Nav className="ml-auto p-3 p-lg-0">
           <NavItem className="d-flex flex-row align-items-center">
             <NavLink
-              to={routeNames.MrGhosts}
+              to={routeNames.MaiarGhosts}
               className="btn btn-link btn-navbar btn-lg ml-auto d-inline-flex ml-3 font-weight-bold"
               data-testid="Mint a Mr Ghost - Gokai Labs NFT DAO - Maiar Ghosts"
               title="Mint a Mr Ghost - Gokai Labs NFT DAO - Maiar Ghosts"

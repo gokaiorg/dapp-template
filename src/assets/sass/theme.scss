@@ -149,6 +149,40 @@ p {
   }
 }
 
+.react-tabs {
+  text-align: center;
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
+  &__tab {
+    border-radius: 3rem !important;
+    text-decoration: none !important;
+    color: $black !important;
+    background: $white !important;
+    border: none !important;
+    font-size: 1.2rem !important;
+    padding: 1rem 1.5rem !important;
+    box-shadow: none !important;
+    margin-left: 1rem;
+
+    &::after {
+      display: none;
+    }
+
+    &:hover,
+    &--selected {
+      background: #0381e6 !important;
+      border: none !important;
+      color: #fff !important;
+    }
+
+    &-list {
+      border: 0;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
 /* Login container
 -------------------------------------------------- */
 .login-container {
@@ -331,6 +365,29 @@ table {
   min-height: 100vh;
 }
 
+.bg-mr-ghost-cemetery-bottom {
+  background: #000 url("../img/bg-mr-ghost-cemetery-bottom.png") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 100vh;
+}
+
+.mr-ghost-nav {
+  .mr-ghost-arrow {
+    &.previous {
+      .img {
+        transform: rotate(180deg);
+      }
+    }
+    .img {
+      background: url("../img/arrow-mr-ghost.png") no-repeat;
+      background-size: contain;
+      width: 58px;
+      height: 70px;
+    }
+  }
+}
+
 .mghost-input {
   border-radius: 50px;
   outline: none;
@@ -358,8 +415,11 @@ iframe {
   }
 }
 
-.mr-ghosts-grid-anim {
-  height: 256px;
+.mr-ghosts-grid {
+  padding-bottom: 20rem;
+  &-anim {
+    height: 256px;
+  }
 }
 
 /* Roadmap

@@ -23,10 +23,10 @@ const Mrghosts = () => {
           </AnimationOnScroll>
           <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <Link
-              to={routeNames.MrGhosts}
+              to={routeNames.MaiarGhosts}
               className="btn btn-link btn-lg mx-auto d-inline-flex"
               data-testid="Buy NFT"
-              title="Buy Mr Ghost NFT and become a member of Gokai Labs DAO on Elrond Network - Maiar Ghosts"
+              title="Buy Mr Ghost NFT and become a member of Gokai Labs NFT DAO on Elrond Network - Maiar Ghosts"
             >
               Buy NFT
             </Link>
