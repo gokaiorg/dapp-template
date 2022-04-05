@@ -54,7 +54,7 @@ const Dashboard = () => {
     <div className="container my-5 dashboard" ref={ref}>
       <div className="d-flex flex-column container-fluid p-0">
         <h1 className="h1 font-weight-bold mb-3">Dashboard</h1>
-        <div className="d-flex flex-column-reverse flex-md-row">
+        <div className="d-flex flex-column-reverse flex-md-row w-100">
           <TopInfo />
           <GokaiWallet />
         </div>

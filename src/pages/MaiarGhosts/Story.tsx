@@ -19,7 +19,7 @@ const Story = () => {
           rel="noreferrer"
           className="btn btn-link btn-lg mx-auto d-inline-flex mt-5"
         >
-          Read More
+          More about Maiar Ghosts collection
         </a>
       </motion.div>
       <motion.div

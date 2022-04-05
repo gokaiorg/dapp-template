@@ -5,23 +5,23 @@ import Denominate from "../../components/Denominate";
 
 const GokaiWallet = () => {
   const {
-    address,
+    // address,
     account: { balance },
   } = Dapp.useContext();
 
   return (
     <div
-      className="wallet d-inline-flex flex-column bg-white col-md-6 p-3 mb-3 mb-md-0 overflow-hidden"
+      className="wallet d-inline-flex flex-column bg-white p-3 ml-md-auto mb-3 mb-md-0 overflow-hidden"
       data-testid="Wallet"
     >
       <h2 className="h5 font-weight-bold">Gokai Treasury</h2>
-      <span
+      {/* <span
         className="top-info-address text-black position-relative d-block"
         data-testid="accountAddress"
       >
         {" "}
         {address}
-      </span>
+      </span> */}
       <p className="d-flex flex-row align-items-center m-0">
         <p className="mr-2 font-weight-bold">Staked EGLD</p>
         <ElrondLogo className="elrond-symbol text-black" />

@@ -11,7 +11,7 @@ const TopInfo = () => {
 
   return (
     <div
-      className="top-info d-inline-flex flex-column mr-md-3 bg-white col-md-6 p-3 overflow-hidden"
+      className="top-info d-inline-flex flex-column mr-md-3 bg-white p-3 overflow-hidden"
       data-testid="topInfo"
     >
       <h3 className="h5 font-weight-bold">My account</h3>

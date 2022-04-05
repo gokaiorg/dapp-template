@@ -54,17 +54,19 @@ const Roadmap = () => {
             <p className="h3 flex-nowrap">
               We have a simple priority target, we are going to stake the EGLDs
               to run a node and become validators of the Elrond network in Asia.
-              Each node must bid 2500 EGLD to become a validator and is rewarded
-              for its service.{" "}
+              Each node must bid 2500 EGLD to{" "}
               <a
                 {...{
                   target: "_blank",
                 }}
                 className="d-inline font-weight-bold"
+                data-testid="Medium Story - Elrond Network Validator - Gokai Labs"
+                title="Medium Story - Elrond Network Validator - Gokai Labs"
                 href="https://medium.com/@GokaiLabs/gokai-labs-stake-egld-to-become-validator-of-the-elrond-blockchain-b394d620ded0"
               >
-                Read more
-              </a>
+                become a validator
+              </a>{" "}
+              and is rewarded for its service.
             </p>
           </AnimationOnScroll>
         </div>
